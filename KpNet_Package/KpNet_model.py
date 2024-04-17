@@ -92,11 +92,11 @@ class KpNetModel:
                     kl_weight=0.0001,
                     dropout=0.4,
                     bilstm=True,
-                    b=2,
+                    b=4, # added 2 more bilstm layers
                     cnn_only=False):
                 input = keras.Input(shape=input_shape)
                 self.input = input 
-                model = layers.Conv1D(filters=32, kernel_size=1, activation="relu",
+                model = layers.Conv1D(filters=32, kernel_size=2, activation="relu", #kernal_size from 1 to 2
                                         name=self.model_name+"_conv",
                                         kernel_regularizer=regularizers.l1_l2(l1=1e-5, l2=1e-4),
                                         bias_regularizer=regularizers.l2(1e-4),
@@ -183,7 +183,7 @@ class KpNetModel:
     def summary(self):
         self.model.summary()
     
-    def compile(self,loss='mse',metrics=['mse'], adam_lr=0.0001):
+    def compile(self,loss='mse',metrics=['mse'], adam_lr=0.00014): # changed from 0.0001 to 0.00014
         self.model.compile(optimizer=tf.keras.optimizers.legacy.Adam(learning_rate=adam_lr), 
                            loss=loss,
                            metrics=metrics)
@@ -192,7 +192,7 @@ class KpNetModel:
             y_train,
             X_valid=None, 
             y_valid=None,
-            epochs=100,
+            epochs=50, #changed from 100 to 50
             verbose=2,
             batch_size=512):
         validation_data = None 

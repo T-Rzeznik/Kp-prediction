@@ -1,0 +1,19 @@
+For my "improvements" I tweaked hyper parameters as followed:
+
+1. changed learning rate from 0.0001 to 0.00014 in the adam algorithm
+
+2. Turned down number of epochs from 100 to 50
+        - most likely will cause underfitting
+
+3. Chnaged kernal_size from 1 to 2 in the convolutional layer
+
+4. Added 2 bilstm layers
+
+
+
+Estimate:
+ I changed the learning rate 0.00014 slighty increasing it hoping that this will be good for the reduced number of epochs now being trained.
+    - I estimate this will cause some underfitting
+
+In response I wanted to tune up some hyperparameters to combat this which is why I added 2 bilstm layers and increased the kernal size in the convolutional layer.
+
