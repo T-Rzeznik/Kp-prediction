@@ -5,7 +5,7 @@ For my "improvements" I tweaked hyper parameters as followed:
 2. Turned down number of epochs from 100 to 50
         - most likely will cause underfitting
 
-3. Chnaged kernal_size from 1 to 2 in the convolutional layer
+3. Changed kernal_size from 1 to 2 in the convolutional layer
 
 4. Added 2 bilstm layers
 
