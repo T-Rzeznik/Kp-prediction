@@ -53,7 +53,7 @@ from KpNet_model import KpNetModel
 
 num_hours = 1
 interval_type = 'hourly'
-epochs = 100
+epochs = 50
 prev_weights = None
 w_dir=None
 

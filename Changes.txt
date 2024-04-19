@@ -1,12 +1,14 @@
+
 For my "improvements" I tweaked hyper parameters as followed:
 
+
+Model 1:
+{
 1. changed learning rate from 0.0001 to 0.00014 in the adam algorithm
 
 2. Turned down number of epochs from 100 to 50
 
-3. Changed kernal_size from 1 to 2 in the convolutional layer
-
-4. Added 2 bilstm layers
+3. Added 2 bilstm layers
 
 
 
@@ -14,5 +16,9 @@ Estimate:
  I changed the learning rate 0.00014 slighty increasing it hoping that this will be good for the reduced number of epochs now being trained.
     - I estimate this will cause some overfitting
 
-In response I wanted to tune up some hyperparameters to combat this which is why I added 2 bilstm layers and increased the kernal size in the convolutional layer.
+In response I wanted to tune up some hyperparameters to combat this which is why I added 2 bilstm layers.
 
+Conclusion: The changes I made to the model created predictions I did not expect. They seemed to break the model causing every hours piction to be a constant value.
+this happed twice with the default model, which makes me ponder why this is happening.
+
+}

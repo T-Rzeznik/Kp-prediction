@@ -1,0 +1,5 @@
+
+Starting hour: 1 ending hour: 9
+Running training for h = 1 hour ahead
+[2024-04-18 14:59:35] Loading from train file: data\solar-wind-data\1h\solar_wind_parameters_data_1_hourly_train.csv 
+[2024-04-18 14:59:35] Loading from test  file: data\solar-wind-data\1h\solar_wind_parameters_data_1_hourly_test.csv 

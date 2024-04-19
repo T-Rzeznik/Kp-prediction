@@ -1,0 +1,2325 @@
+
+Starting hour: 1 ending hour: 9
+Running training for h = 1 hour ahead
+[2024-04-18 15:00:33] Loading from train file: data\solar-wind-data\1h\solar_wind_parameters_data_1_hourly_train.csv 
+[2024-04-18 15:00:33] Loading from test  file: data\solar-wind-data\1h\solar_wind_parameters_data_1_hourly_test.csv 
+[2024-04-18 15:00:33] all_data.columns: Index(['Timestamp', 'YEAR', 'DOY', 'HR', 'ScalarB', 'BX_GSE_GSM', 'BY_GSE',
+       'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature',
+       'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure',
+       'Electric_field', 'Kp_index', 'Kp_German'],
+      dtype='object') 
+[2024-04-18 15:00:33] data columns: Index(['Timestamp', 'YEAR', 'DOY', 'HR', 'ScalarB', 'BX_GSE_GSM', 'BY_GSE',
+       'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature',
+       'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure',
+       'Electric_field', 'Kp_index', 'Kp_German'],
+      dtype='object') 
+[2024-04-18 15:00:33] columns_names: ['ScalarB', 'BX_GSE_GSM', 'BY_GSE', 'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature', 'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure'] 
+
+Starting hour: 1 ending hour: 9
+Running training for h = 1 hour ahead
+[2024-04-18 15:01:13] Loading from train file: data\solar-wind-data\1h\solar_wind_parameters_data_1_hourly_train.csv 
+[2024-04-18 15:01:13] Loading from test  file: data\solar-wind-data\1h\solar_wind_parameters_data_1_hourly_test.csv 
+[2024-04-18 15:01:14] all_data.columns: Index(['Timestamp', 'YEAR', 'DOY', 'HR', 'ScalarB', 'BX_GSE_GSM', 'BY_GSE',
+       'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature',
+       'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure',
+       'Electric_field', 'Kp_index', 'Kp_German'],
+      dtype='object') 
+[2024-04-18 15:01:14] data columns: Index(['Timestamp', 'YEAR', 'DOY', 'HR', 'ScalarB', 'BX_GSE_GSM', 'BY_GSE',
+       'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature',
+       'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure',
+       'Electric_field', 'Kp_index', 'Kp_German'],
+      dtype='object') 
+[2024-04-18 15:01:14] columns_names: ['ScalarB', 'BX_GSE_GSM', 'BY_GSE', 'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature', 'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure'] 
+
+Starting hour: 1 ending hour: 9
+Running training for h = 1 hour ahead
+[2024-04-18 15:02:03] Loading from train file: data\solar-wind-data\1h\solar_wind_parameters_data_1_hourly_train.csv 
+[2024-04-18 15:02:03] Loading from test  file: data\solar-wind-data\1h\solar_wind_parameters_data_1_hourly_test.csv 
+[2024-04-18 15:02:04] all_data.columns: Index(['Timestamp', 'YEAR', 'DOY', 'HR', 'ScalarB', 'BX_GSE_GSM', 'BY_GSE',
+       'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature',
+       'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure',
+       'Electric_field', 'Kp_index', 'Kp_German'],
+      dtype='object') 
+[2024-04-18 15:02:04] data columns: Index(['Timestamp', 'YEAR', 'DOY', 'HR', 'ScalarB', 'BX_GSE_GSM', 'BY_GSE',
+       'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature',
+       'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure',
+       'Electric_field', 'Kp_index', 'Kp_German'],
+      dtype='object') 
+[2024-04-18 15:02:04] columns_names: ['ScalarB', 'BX_GSE_GSM', 'BY_GSE', 'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature', 'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure'] 
+Epoch 1/100
+204/204 - 50s - loss: 75331.8984 - mse: 392.3721 - 50s/epoch - 243ms/step
+Epoch 2/100
+204/204 - 36s - loss: 59865.8945 - mse: 341.4166 - 36s/epoch - 177ms/step
+Epoch 3/100
+204/204 - 36s - loss: 47350.2500 - mse: 269.5182 - 36s/epoch - 175ms/step
+Epoch 4/100
+204/204 - 38s - loss: 37310.4688 - mse: 243.8316 - 38s/epoch - 188ms/step
+Epoch 5/100
+204/204 - 37s - loss: 29291.2402 - mse: 233.2455 - 37s/epoch - 182ms/step
+Epoch 6/100
+204/204 - 37s - loss: 22890.6367 - mse: 225.7547 - 37s/epoch - 179ms/step
+Epoch 7/100
+204/204 - 37s - loss: 17780.6289 - mse: 220.4188 - 37s/epoch - 181ms/step
+Epoch 8/100
+204/204 - 36s - loss: 13697.8564 - mse: 215.9578 - 36s/epoch - 176ms/step
+Epoch 9/100
+204/204 - 37s - loss: 10446.1201 - mse: 212.1039 - 37s/epoch - 180ms/step
+Epoch 10/100
+204/204 - 35s - loss: 7869.7251 - mse: 210.1165 - 35s/epoch - 171ms/step
+Epoch 11/100
+204/204 - 38s - loss: 5845.5244 - mse: 207.6806 - 38s/epoch - 186ms/step
+Epoch 12/100
+204/204 - 36s - loss: 4281.7920 - mse: 207.8664 - 36s/epoch - 176ms/step
+Epoch 13/100
+204/204 - 37s - loss: 3085.4080 - mse: 204.5687 - 37s/epoch - 180ms/step
+Epoch 14/100
+204/204 - 37s - loss: 2190.2363 - mse: 201.4158 - 37s/epoch - 183ms/step
+Epoch 15/100
+204/204 - 37s - loss: 1538.2916 - mse: 202.4694 - 37s/epoch - 183ms/step
+Epoch 16/100
+204/204 - 38s - loss: 1068.7494 - mse: 199.3796 - 38s/epoch - 187ms/step
+Epoch 17/100
+204/204 - 34s - loss: 745.5353 - mse: 199.5352 - 34s/epoch - 169ms/step
+Epoch 18/100
+204/204 - 38s - loss: 528.3172 - mse: 199.0352 - 38s/epoch - 188ms/step
+Epoch 19/100
+204/204 - 37s - loss: 387.0162 - mse: 197.3901 - 37s/epoch - 183ms/step
+Epoch 20/100
+204/204 - 36s - loss: 300.9993 - mse: 197.2956 - 36s/epoch - 176ms/step
+Epoch 21/100
+204/204 - 38s - loss: 248.3890 - mse: 194.8683 - 38s/epoch - 187ms/step
+Epoch 22/100
+204/204 - 37s - loss: 222.8392 - mse: 196.9285 - 37s/epoch - 182ms/step
+Epoch 23/100
+204/204 - 34s - loss: 206.4575 - mse: 194.7635 - 34s/epoch - 169ms/step
+Epoch 24/100
+204/204 - 37s - loss: 199.0011 - mse: 194.0952 - 37s/epoch - 181ms/step
+Epoch 25/100
+204/204 - 35s - loss: 195.2713 - mse: 193.3440 - 35s/epoch - 173ms/step
+Epoch 26/100
+204/204 - 36s - loss: 194.2792 - mse: 193.5455 - 36s/epoch - 178ms/step
+Epoch 27/100
+204/204 - 38s - loss: 192.6141 - mse: 192.3199 - 38s/epoch - 188ms/step
+Epoch 28/100
+204/204 - 38s - loss: 191.3906 - mse: 191.2481 - 38s/epoch - 185ms/step
+Epoch 29/100
+204/204 - 35s - loss: 191.3327 - mse: 191.2425 - 35s/epoch - 171ms/step
+Epoch 30/100
+204/204 - 35s - loss: 191.8879 - mse: 191.8174 - 35s/epoch - 171ms/step
+Epoch 31/100
+204/204 - 35s - loss: 191.7887 - mse: 191.7271 - 35s/epoch - 171ms/step
+Epoch 32/100
+204/204 - 35s - loss: 190.7841 - mse: 190.7272 - 35s/epoch - 171ms/step
+Epoch 33/100
+204/204 - 35s - loss: 189.3519 - mse: 189.2980 - 35s/epoch - 171ms/step
+Epoch 34/100
+204/204 - 35s - loss: 190.0450 - mse: 189.9930 - 35s/epoch - 171ms/step
+Epoch 35/100
+204/204 - 35s - loss: 188.9873 - mse: 188.9367 - 35s/epoch - 171ms/step
+Epoch 36/100
+204/204 - 35s - loss: 188.9861 - mse: 188.9365 - 35s/epoch - 170ms/step
+Epoch 37/100
+204/204 - 35s - loss: 187.5884 - mse: 187.5396 - 35s/epoch - 170ms/step
+Epoch 38/100
+204/204 - 35s - loss: 188.4209 - mse: 188.3727 - 35s/epoch - 170ms/step
+Epoch 39/100
+204/204 - 35s - loss: 187.7085 - mse: 187.6608 - 35s/epoch - 171ms/step
+Epoch 40/100
+204/204 - 35s - loss: 187.3418 - mse: 187.2946 - 35s/epoch - 171ms/step
+Epoch 41/100
+204/204 - 41s - loss: 187.2122 - mse: 187.1653 - 41s/epoch - 202ms/step
+Epoch 42/100
+204/204 - 37s - loss: 186.7706 - mse: 186.7239 - 37s/epoch - 181ms/step
+Epoch 43/100
+204/204 - 38s - loss: 185.9720 - mse: 185.9256 - 38s/epoch - 188ms/step
+Epoch 44/100
+204/204 - 35s - loss: 186.7097 - mse: 186.6635 - 35s/epoch - 174ms/step
+Epoch 45/100
+204/204 - 35s - loss: 185.6204 - mse: 185.5745 - 35s/epoch - 172ms/step
+Epoch 46/100
+204/204 - 35s - loss: 185.9254 - mse: 185.8795 - 35s/epoch - 173ms/step
+Epoch 47/100
+204/204 - 35s - loss: 185.8763 - mse: 185.8307 - 35s/epoch - 173ms/step
+Epoch 48/100
+204/204 - 35s - loss: 185.1410 - mse: 185.0955 - 35s/epoch - 172ms/step
+Epoch 49/100
+204/204 - 35s - loss: 185.0194 - mse: 184.9741 - 35s/epoch - 174ms/step
+Epoch 50/100
+204/204 - 36s - loss: 185.6696 - mse: 185.6244 - 36s/epoch - 178ms/step
+Epoch 51/100
+204/204 - 38s - loss: 185.3091 - mse: 185.2641 - 38s/epoch - 186ms/step
+Epoch 52/100
+
+Starting hour: 1 ending hour: 9
+Running training for h = 1 hour ahead
+[2024-04-18 15:33:50] Loading from train file: data\solar-wind-data\1h\solar_wind_parameters_data_1_hourly_train.csv 
+[2024-04-18 15:33:50] Loading from test  file: data\solar-wind-data\1h\solar_wind_parameters_data_1_hourly_test.csv 
+[2024-04-18 15:33:50] all_data.columns: Index(['Timestamp', 'YEAR', 'DOY', 'HR', 'ScalarB', 'BX_GSE_GSM', 'BY_GSE',
+       'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature',
+       'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure',
+       'Electric_field', 'Kp_index', 'Kp_German'],
+      dtype='object') 
+[2024-04-18 15:33:50] data columns: Index(['Timestamp', 'YEAR', 'DOY', 'HR', 'ScalarB', 'BX_GSE_GSM', 'BY_GSE',
+       'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature',
+       'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure',
+       'Electric_field', 'Kp_index', 'Kp_German'],
+      dtype='object') 
+[2024-04-18 15:33:50] columns_names: ['ScalarB', 'BX_GSE_GSM', 'BY_GSE', 'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature', 'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure'] 
+Epoch 1/50
+204/204 - 51s - loss: 96363.3203 - mse: 380.1985 - 51s/epoch - 248ms/step
+Epoch 2/50
+204/204 - 35s - loss: 77228.0469 - mse: 344.4640 - 35s/epoch - 170ms/step
+Epoch 3/50
+204/204 - 35s - loss: 61797.1250 - mse: 294.9004 - 35s/epoch - 171ms/step
+Epoch 4/50
+204/204 - 35s - loss: 49270.0508 - mse: 268.6777 - 35s/epoch - 172ms/step
+Epoch 5/50
+204/204 - 35s - loss: 38985.7148 - mse: 252.7509 - 35s/epoch - 173ms/step
+Epoch 6/50
+204/204 - 35s - loss: 30564.8223 - mse: 239.5538 - 35s/epoch - 173ms/step
+Epoch 7/50
+204/204 - 36s - loss: 23707.6035 - mse: 234.2506 - 36s/epoch - 174ms/step
+Epoch 8/50
+204/204 - 35s - loss: 18157.5879 - mse: 225.8796 - 35s/epoch - 174ms/step
+Epoch 9/50
+204/204 - 35s - loss: 13714.9512 - mse: 218.7593 - 35s/epoch - 173ms/step
+Epoch 10/50
+204/204 - 35s - loss: 10202.3711 - mse: 217.0746 - 35s/epoch - 173ms/step
+Epoch 11/50
+204/204 - 35s - loss: 7461.0078 - mse: 212.8981 - 35s/epoch - 173ms/step
+Epoch 12/50
+204/204 - 35s - loss: 5360.9453 - mse: 208.8833 - 35s/epoch - 173ms/step
+Epoch 13/50
+204/204 - 35s - loss: 3784.9358 - mse: 206.5619 - 35s/epoch - 172ms/step
+Epoch 14/50
+204/204 - 36s - loss: 2626.0496 - mse: 204.8109 - 36s/epoch - 175ms/step
+Epoch 15/50
+204/204 - 35s - loss: 1792.9543 - mse: 202.1645 - 35s/epoch - 171ms/step
+Epoch 16/50
+204/204 - 35s - loss: 1214.4318 - mse: 203.0305 - 35s/epoch - 172ms/step
+Epoch 17/50
+204/204 - 35s - loss: 819.5567 - mse: 200.1855 - 35s/epoch - 171ms/step
+Epoch 18/50
+204/204 - 35s - loss: 566.0754 - mse: 202.2319 - 35s/epoch - 171ms/step
+Epoch 19/50
+204/204 - 35s - loss: 403.2968 - mse: 199.3710 - 35s/epoch - 171ms/step
+Epoch 20/50
+204/204 - 35s - loss: 306.8947 - mse: 198.5493 - 35s/epoch - 171ms/step
+Epoch 21/50
+204/204 - 35s - loss: 250.5256 - mse: 196.2939 - 35s/epoch - 172ms/step
+Epoch 22/50
+204/204 - 35s - loss: 221.6214 - mse: 196.2243 - 35s/epoch - 171ms/step
+Epoch 23/50
+204/204 - 35s - loss: 207.3092 - mse: 196.2074 - 35s/epoch - 171ms/step
+Epoch 24/50
+204/204 - 35s - loss: 199.6318 - mse: 195.0964 - 35s/epoch - 171ms/step
+Epoch 25/50
+204/204 - 35s - loss: 196.9281 - mse: 195.1730 - 35s/epoch - 172ms/step
+Epoch 26/50
+204/204 - 35s - loss: 193.2353 - mse: 192.5610 - 35s/epoch - 172ms/step
+Epoch 27/50
+204/204 - 35s - loss: 193.3695 - mse: 193.0860 - 35s/epoch - 172ms/step
+Epoch 28/50
+204/204 - 35s - loss: 191.8674 - mse: 191.7205 - 35s/epoch - 171ms/step
+Epoch 29/50
+204/204 - 35s - loss: 192.6434 - mse: 192.5459 - 35s/epoch - 172ms/step
+Epoch 30/50
+204/204 - 35s - loss: 192.0298 - mse: 191.9525 - 35s/epoch - 171ms/step
+Epoch 31/50
+204/204 - 35s - loss: 191.0156 - mse: 190.9480 - 35s/epoch - 171ms/step
+Epoch 32/50
+204/204 - 35s - loss: 190.4761 - mse: 190.4141 - 35s/epoch - 172ms/step
+Epoch 33/50
+204/204 - 35s - loss: 192.3020 - mse: 192.2437 - 35s/epoch - 172ms/step
+Epoch 34/50
+204/204 - 35s - loss: 189.9558 - mse: 189.9001 - 35s/epoch - 171ms/step
+Epoch 35/50
+204/204 - 35s - loss: 189.7599 - mse: 189.7060 - 35s/epoch - 171ms/step
+Epoch 36/50
+204/204 - 35s - loss: 189.6632 - mse: 189.6108 - 35s/epoch - 171ms/step
+Epoch 37/50
+204/204 - 35s - loss: 187.8665 - mse: 187.8151 - 35s/epoch - 172ms/step
+Epoch 38/50
+204/204 - 35s - loss: 188.3743 - mse: 188.3239 - 35s/epoch - 171ms/step
+Epoch 39/50
+204/204 - 35s - loss: 188.2119 - mse: 188.1623 - 35s/epoch - 172ms/step
+Epoch 40/50
+204/204 - 36s - loss: 188.6629 - mse: 188.6138 - 36s/epoch - 177ms/step
+Epoch 41/50
+204/204 - 35s - loss: 188.1190 - mse: 188.0703 - 35s/epoch - 174ms/step
+Epoch 42/50
+204/204 - 35s - loss: 187.6327 - mse: 187.5845 - 35s/epoch - 173ms/step
+Epoch 43/50
+204/204 - 35s - loss: 186.9708 - mse: 186.9230 - 35s/epoch - 172ms/step
+Epoch 44/50
+204/204 - 35s - loss: 187.5308 - mse: 187.4833 - 35s/epoch - 172ms/step
+Epoch 45/50
+204/204 - 35s - loss: 186.2234 - mse: 186.1761 - 35s/epoch - 172ms/step
+Epoch 46/50
+204/204 - 35s - loss: 185.7610 - mse: 185.7141 - 35s/epoch - 172ms/step
+Epoch 47/50
+204/204 - 35s - loss: 185.8307 - mse: 185.7840 - 35s/epoch - 172ms/step
+Epoch 48/50
+204/204 - 35s - loss: 185.3475 - mse: 185.3009 - 35s/epoch - 172ms/step
+Epoch 49/50
+204/204 - 35s - loss: 185.6103 - mse: 185.5639 - 35s/epoch - 172ms/step
+Epoch 50/50
+204/204 - 36s - loss: 184.9030 - mse: 184.8568 - 36s/epoch - 175ms/step
+[2024-04-18 16:03:26] Saving model weights to directory: models\1h 
+Running training for h = 2 hour ahead
+[2024-04-18 16:03:26] Loading from train file: data\solar-wind-data\2h\solar_wind_parameters_data_2_hourly_train.csv 
+[2024-04-18 16:03:26] Loading from test  file: data\solar-wind-data\2h\solar_wind_parameters_data_2_hourly_test.csv 
+[2024-04-18 16:03:27] all_data.columns: Index(['Timestamp', 'YEAR', 'DOY', 'HR', 'ScalarB', 'BX_GSE_GSM', 'BY_GSE',
+       'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature',
+       'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure',
+       'Electric_field', 'Kp_index', 'Kp_German'],
+      dtype='object') 
+[2024-04-18 16:03:27] data columns: Index(['Timestamp', 'YEAR', 'DOY', 'HR', 'ScalarB', 'BX_GSE_GSM', 'BY_GSE',
+       'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature',
+       'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure',
+       'Electric_field', 'Kp_index', 'Kp_German'],
+      dtype='object') 
+[2024-04-18 16:03:27] columns_names: ['ScalarB', 'BX_GSE_GSM', 'BY_GSE', 'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature', 'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure'] 
+Epoch 1/50
+204/204 - 60s - loss: 74991.0547 - mse: 382.6276 - 60s/epoch - 295ms/step
+Epoch 2/50
+204/204 - 46s - loss: 58742.5664 - mse: 329.5768 - 46s/epoch - 224ms/step
+Epoch 3/50
+204/204 - 69s - loss: 45746.2656 - mse: 284.1910 - 69s/epoch - 336ms/step
+Epoch 4/50
+204/204 - 71s - loss: 35293.6016 - mse: 259.3035 - 71s/epoch - 349ms/step
+Epoch 5/50
+204/204 - 55s - loss: 26932.9746 - mse: 245.5354 - 55s/epoch - 270ms/step
+Epoch 6/50
+204/204 - 58s - loss: 20293.9258 - mse: 235.5779 - 58s/epoch - 283ms/step
+Epoch 7/50
+204/204 - 60s - loss: 15089.5576 - mse: 228.5608 - 60s/epoch - 293ms/step
+Epoch 8/50
+204/204 - 58s - loss: 11064.5283 - mse: 226.7177 - 58s/epoch - 286ms/step
+Epoch 9/50
+204/204 - 54s - loss: 7992.9639 - mse: 220.2497 - 54s/epoch - 264ms/step
+Epoch 10/50
+204/204 - 53s - loss: 5695.7622 - mse: 217.6784 - 53s/epoch - 258ms/step
+Epoch 11/50
+204/204 - 51s - loss: 4005.0312 - mse: 213.5220 - 51s/epoch - 250ms/step
+Epoch 12/50
+204/204 - 49s - loss: 2782.2888 - mse: 210.6291 - 49s/epoch - 239ms/step
+Epoch 13/50
+204/204 - 43s - loss: 1913.9099 - mse: 208.2489 - 43s/epoch - 211ms/step
+Epoch 14/50
+204/204 - 42s - loss: 1311.5675 - mse: 208.2963 - 42s/epoch - 206ms/step
+Epoch 15/50
+204/204 - 42s - loss: 899.5318 - mse: 205.9836 - 42s/epoch - 208ms/step
+Epoch 16/50
+204/204 - 42s - loss: 625.7864 - mse: 204.0543 - 42s/epoch - 207ms/step
+Epoch 17/50
+204/204 - 42s - loss: 448.5308 - mse: 201.7805 - 42s/epoch - 206ms/step
+Epoch 18/50
+204/204 - 42s - loss: 339.6828 - mse: 201.5387 - 42s/epoch - 208ms/step
+Epoch 19/50
+204/204 - 42s - loss: 274.4716 - mse: 200.8625 - 42s/epoch - 206ms/step
+Epoch 20/50
+204/204 - 42s - loss: 236.5102 - mse: 199.4356 - 42s/epoch - 206ms/step
+Epoch 21/50
+204/204 - 42s - loss: 216.7430 - mse: 199.1767 - 42s/epoch - 208ms/step
+Epoch 22/50
+204/204 - 42s - loss: 206.1253 - mse: 198.3024 - 42s/epoch - 207ms/step
+Epoch 23/50
+204/204 - 42s - loss: 200.9008 - mse: 197.6076 - 42s/epoch - 206ms/step
+Epoch 24/50
+204/204 - 42s - loss: 198.0197 - mse: 196.6764 - 42s/epoch - 206ms/step
+Epoch 25/50
+204/204 - 42s - loss: 196.3819 - mse: 195.8186 - 42s/epoch - 205ms/step
+Epoch 26/50
+204/204 - 42s - loss: 195.8093 - mse: 195.5448 - 42s/epoch - 205ms/step
+Epoch 27/50
+204/204 - 42s - loss: 194.4692 - mse: 194.3191 - 42s/epoch - 207ms/step
+Epoch 28/50
+204/204 - 42s - loss: 195.4927 - mse: 195.3903 - 42s/epoch - 205ms/step
+Epoch 29/50
+204/204 - 45s - loss: 194.2417 - mse: 194.1614 - 45s/epoch - 218ms/step
+Epoch 30/50
+204/204 - 43s - loss: 192.9446 - mse: 192.8757 - 43s/epoch - 210ms/step
+Epoch 31/50
+204/204 - 42s - loss: 192.2986 - mse: 192.2367 - 42s/epoch - 208ms/step
+Epoch 32/50
+204/204 - 42s - loss: 190.8005 - mse: 190.7429 - 42s/epoch - 205ms/step
+Epoch 33/50
+204/204 - 42s - loss: 192.0916 - mse: 192.0369 - 42s/epoch - 207ms/step
+Epoch 34/50
+204/204 - 41s - loss: 191.7139 - mse: 191.6612 - 41s/epoch - 203ms/step
+Epoch 35/50
+204/204 - 42s - loss: 191.2161 - mse: 191.1650 - 42s/epoch - 207ms/step
+Epoch 36/50
+204/204 - 42s - loss: 190.1525 - mse: 190.1024 - 42s/epoch - 206ms/step
+Epoch 37/50
+204/204 - 42s - loss: 189.7527 - mse: 189.7037 - 42s/epoch - 206ms/step
+Epoch 38/50
+204/204 - 46s - loss: 190.2594 - mse: 190.2112 - 46s/epoch - 223ms/step
+Epoch 39/50
+204/204 - 50s - loss: 189.3779 - mse: 189.3302 - 50s/epoch - 243ms/step
+Epoch 40/50
+204/204 - 44s - loss: 188.2309 - mse: 188.1837 - 44s/epoch - 214ms/step
+Epoch 41/50
+204/204 - 36s - loss: 188.6931 - mse: 188.6463 - 36s/epoch - 178ms/step
+Epoch 42/50
+204/204 - 41s - loss: 188.5941 - mse: 188.5478 - 41s/epoch - 200ms/step
+Epoch 43/50
+204/204 - 39s - loss: 187.1925 - mse: 187.1464 - 39s/epoch - 189ms/step
+Epoch 44/50
+204/204 - 37s - loss: 187.9747 - mse: 187.9289 - 37s/epoch - 179ms/step
+Epoch 45/50
+204/204 - 36s - loss: 187.7200 - mse: 187.6744 - 36s/epoch - 177ms/step
+Epoch 46/50
+204/204 - 37s - loss: 187.1454 - mse: 187.1000 - 37s/epoch - 183ms/step
+Epoch 47/50
+204/204 - 38s - loss: 186.6006 - mse: 186.5553 - 38s/epoch - 187ms/step
+Epoch 48/50
+204/204 - 39s - loss: 185.5699 - mse: 185.5247 - 39s/epoch - 190ms/step
+Epoch 49/50
+204/204 - 39s - loss: 185.5260 - mse: 185.4811 - 39s/epoch - 189ms/step
+Epoch 50/50
+204/204 - 39s - loss: 185.7345 - mse: 185.6897 - 39s/epoch - 191ms/step
+[2024-04-18 16:41:08] Saving model weights to directory: models\2h 
+Running training for h = 3 hour ahead
+[2024-04-18 16:41:08] Loading from train file: data\solar-wind-data\3h\solar_wind_parameters_data_3_hourly_train.csv 
+[2024-04-18 16:41:08] Loading from test  file: data\solar-wind-data\3h\solar_wind_parameters_data_3_hourly_test.csv 
+[2024-04-18 16:41:08] all_data.columns: Index(['Timestamp', 'YEAR', 'DOY', 'HR', 'ScalarB', 'BX_GSE_GSM', 'BY_GSE',
+       'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature',
+       'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure',
+       'Electric_field', 'Kp_index', 'Kp_German'],
+      dtype='object') 
+[2024-04-18 16:41:08] data columns: Index(['Timestamp', 'YEAR', 'DOY', 'HR', 'ScalarB', 'BX_GSE_GSM', 'BY_GSE',
+       'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature',
+       'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure',
+       'Electric_field', 'Kp_index', 'Kp_German'],
+      dtype='object') 
+[2024-04-18 16:41:08] columns_names: ['ScalarB', 'BX_GSE_GSM', 'BY_GSE', 'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature', 'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure'] 
+Epoch 1/50
+204/204 - 56s - loss: 121703.1250 - mse: 391.1070 - 56s/epoch - 275ms/step
+Epoch 2/50
+204/204 - 40s - loss: 100882.4062 - mse: 336.2554 - 40s/epoch - 198ms/step
+Epoch 3/50
+204/204 - 40s - loss: 83240.3828 - mse: 288.6987 - 40s/epoch - 195ms/step
+Epoch 4/50
+204/204 - 39s - loss: 68246.7891 - mse: 265.4798 - 39s/epoch - 192ms/step
+Epoch 5/50
+204/204 - 40s - loss: 55490.4492 - mse: 250.0352 - 40s/epoch - 194ms/step
+Epoch 6/50
+204/204 - 39s - loss: 44657.5234 - mse: 239.5368 - 39s/epoch - 192ms/step
+Epoch 7/50
+204/204 - 38s - loss: 35504.4766 - mse: 231.0843 - 38s/epoch - 187ms/step
+Epoch 8/50
+204/204 - 39s - loss: 27854.2910 - mse: 226.5364 - 39s/epoch - 192ms/step
+Epoch 9/50
+204/204 - 39s - loss: 21518.9102 - mse: 219.5496 - 39s/epoch - 193ms/step
+Epoch 10/50
+204/204 - 40s - loss: 16348.3125 - mse: 215.9890 - 40s/epoch - 195ms/step
+Epoch 11/50
+204/204 - 39s - loss: 12190.4961 - mse: 212.0923 - 39s/epoch - 192ms/step
+Epoch 12/50
+204/204 - 39s - loss: 8905.4258 - mse: 210.6397 - 39s/epoch - 193ms/step
+Epoch 13/50
+204/204 - 40s - loss: 6362.1812 - mse: 209.2673 - 40s/epoch - 195ms/step
+Epoch 14/50
+204/204 - 40s - loss: 4436.4077 - mse: 205.5906 - 40s/epoch - 195ms/step
+Epoch 15/50
+204/204 - 39s - loss: 3023.3518 - mse: 204.1685 - 39s/epoch - 191ms/step
+Epoch 16/50
+204/204 - 38s - loss: 2016.0936 - mse: 202.7106 - 38s/epoch - 188ms/step
+Epoch 17/50
+204/204 - 39s - loss: 1323.8816 - mse: 202.4473 - 39s/epoch - 193ms/step
+Epoch 18/50
+204/204 - 39s - loss: 867.0464 - mse: 202.8025 - 39s/epoch - 192ms/step
+Epoch 19/50
+204/204 - 43s - loss: 575.1725 - mse: 200.2318 - 43s/epoch - 209ms/step
+Epoch 20/50
+204/204 - 67s - loss: 398.6039 - mse: 197.6203 - 67s/epoch - 330ms/step
+Epoch 21/50
+204/204 - 55s - loss: 299.1690 - mse: 197.3831 - 55s/epoch - 270ms/step
+Epoch 22/50
+204/204 - 52s - loss: 225.8561 - mse: 177.9657 - 52s/epoch - 253ms/step
+Epoch 23/50
+204/204 - 48s - loss: 192.8570 - mse: 171.7945 - 48s/epoch - 235ms/step
+Epoch 24/50
+204/204 - 51s - loss: 179.3141 - mse: 170.3308 - 51s/epoch - 249ms/step
+Epoch 25/50
+204/204 - 48s - loss: 172.6004 - mse: 168.8488 - 48s/epoch - 235ms/step
+Epoch 26/50
+204/204 - 44s - loss: 168.0991 - mse: 166.1936 - 44s/epoch - 215ms/step
+Epoch 27/50
+204/204 - 44s - loss: 162.2290 - mse: 161.1019 - 44s/epoch - 213ms/step
+Epoch 28/50
+204/204 - 44s - loss: 159.5966 - mse: 158.7224 - 44s/epoch - 215ms/step
+Epoch 29/50
+204/204 - 44s - loss: 157.0028 - mse: 156.2247 - 44s/epoch - 214ms/step
+Epoch 30/50
+204/204 - 43s - loss: 157.2415 - mse: 156.3607 - 43s/epoch - 212ms/step
+Epoch 31/50
+204/204 - 43s - loss: 162.3858 - mse: 161.1637 - 43s/epoch - 212ms/step
+Epoch 32/50
+204/204 - 43s - loss: 161.5237 - mse: 160.6412 - 43s/epoch - 210ms/step
+Epoch 33/50
+204/204 - 44s - loss: 156.5239 - mse: 155.8005 - 44s/epoch - 213ms/step
+Epoch 34/50
+204/204 - 43s - loss: 149.8688 - mse: 149.0237 - 43s/epoch - 212ms/step
+Epoch 35/50
+204/204 - 43s - loss: 145.4169 - mse: 144.7090 - 43s/epoch - 211ms/step
+Epoch 36/50
+204/204 - 43s - loss: 147.1584 - mse: 146.4153 - 43s/epoch - 211ms/step
+Epoch 37/50
+204/204 - 43s - loss: 146.2337 - mse: 145.4115 - 43s/epoch - 211ms/step
+Epoch 38/50
+204/204 - 43s - loss: 143.5169 - mse: 142.7131 - 43s/epoch - 213ms/step
+Epoch 39/50
+204/204 - 44s - loss: 146.6452 - mse: 145.7777 - 44s/epoch - 213ms/step
+Epoch 40/50
+204/204 - 43s - loss: 138.5551 - mse: 137.8611 - 43s/epoch - 212ms/step
+Epoch 41/50
+204/204 - 43s - loss: 134.9983 - mse: 134.3093 - 43s/epoch - 210ms/step
+Epoch 42/50
+204/204 - 43s - loss: 137.6875 - mse: 136.9028 - 43s/epoch - 212ms/step
+Epoch 43/50
+204/204 - 43s - loss: 135.5656 - mse: 134.7319 - 43s/epoch - 213ms/step
+Epoch 44/50
+204/204 - 43s - loss: 133.8089 - mse: 133.0972 - 43s/epoch - 209ms/step
+Epoch 45/50
+204/204 - 45s - loss: 132.9911 - mse: 132.2594 - 45s/epoch - 219ms/step
+Epoch 46/50
+204/204 - 43s - loss: 134.3393 - mse: 133.5846 - 43s/epoch - 213ms/step
+Epoch 47/50
+204/204 - 43s - loss: 129.0264 - mse: 128.4210 - 43s/epoch - 213ms/step
+Epoch 48/50
+204/204 - 43s - loss: 128.0908 - mse: 127.4612 - 43s/epoch - 210ms/step
+Epoch 49/50
+204/204 - 43s - loss: 125.5217 - mse: 124.9946 - 43s/epoch - 212ms/step
+Epoch 50/50
+204/204 - 43s - loss: 126.4160 - mse: 125.8828 - 43s/epoch - 212ms/step
+[2024-04-18 17:17:24] Saving model weights to directory: models\3h 
+Running training for h = 4 hour ahead
+[2024-04-18 17:17:24] Loading from train file: data\solar-wind-data\4h\solar_wind_parameters_data_4_hourly_train.csv 
+[2024-04-18 17:17:24] Loading from test  file: data\solar-wind-data\4h\solar_wind_parameters_data_4_hourly_test.csv 
+[2024-04-18 17:17:24] all_data.columns: Index(['Timestamp', 'YEAR', 'DOY', 'HR', 'ScalarB', 'BX_GSE_GSM', 'BY_GSE',
+       'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature',
+       'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure',
+       'Electric_field', 'Kp_index', 'Kp_German'],
+      dtype='object') 
+[2024-04-18 17:17:24] data columns: Index(['Timestamp', 'YEAR', 'DOY', 'HR', 'ScalarB', 'BX_GSE_GSM', 'BY_GSE',
+       'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature',
+       'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure',
+       'Electric_field', 'Kp_index', 'Kp_German'],
+      dtype='object') 
+[2024-04-18 17:17:24] columns_names: ['ScalarB', 'BX_GSE_GSM', 'BY_GSE', 'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature', 'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure'] 
+Epoch 1/50
+204/204 - 60s - loss: 48641.9023 - mse: 386.7384 - 60s/epoch - 296ms/step
+Epoch 2/50
+204/204 - 41s - loss: 38707.4180 - mse: 347.0031 - 41s/epoch - 203ms/step
+Epoch 3/50
+204/204 - 42s - loss: 30573.8262 - mse: 269.4630 - 42s/epoch - 205ms/step
+Epoch 4/50
+204/204 - 41s - loss: 24001.8242 - mse: 251.0416 - 41s/epoch - 201ms/step
+Epoch 5/50
+204/204 - 42s - loss: 18707.0508 - mse: 233.3102 - 42s/epoch - 205ms/step
+Epoch 6/50
+204/204 - 42s - loss: 14468.5947 - mse: 228.4237 - 42s/epoch - 205ms/step
+Epoch 7/50
+204/204 - 42s - loss: 11093.4141 - mse: 221.0735 - 42s/epoch - 204ms/step
+Epoch 8/50
+204/204 - 42s - loss: 8426.7383 - mse: 213.7437 - 42s/epoch - 205ms/step
+Epoch 9/50
+204/204 - 41s - loss: 6339.8105 - mse: 211.7131 - 41s/epoch - 200ms/step
+Epoch 10/50
+204/204 - 42s - loss: 4715.7056 - mse: 209.6039 - 42s/epoch - 205ms/step
+Epoch 11/50
+204/204 - 42s - loss: 3465.4597 - mse: 206.3195 - 42s/epoch - 204ms/step
+Epoch 12/50
+204/204 - 41s - loss: 2515.8108 - mse: 204.7792 - 41s/epoch - 203ms/step
+Epoch 13/50
+204/204 - 41s - loss: 1804.7164 - mse: 203.6231 - 41s/epoch - 201ms/step
+Epoch 14/50
+204/204 - 41s - loss: 1280.6100 - mse: 200.9060 - 41s/epoch - 202ms/step
+Epoch 15/50
+204/204 - 42s - loss: 905.2478 - mse: 199.8808 - 42s/epoch - 204ms/step
+Epoch 16/50
+204/204 - 42s - loss: 644.9427 - mse: 200.3660 - 42s/epoch - 208ms/step
+Epoch 17/50
+204/204 - 42s - loss: 466.8295 - mse: 197.8983 - 42s/epoch - 204ms/step
+Epoch 18/50
+204/204 - 41s - loss: 351.0266 - mse: 195.8814 - 41s/epoch - 203ms/step
+Epoch 19/50
+204/204 - 41s - loss: 280.9066 - mse: 196.0512 - 41s/epoch - 200ms/step
+Epoch 20/50
+204/204 - 42s - loss: 240.1870 - mse: 196.4663 - 42s/epoch - 205ms/step
+Epoch 21/50
+204/204 - 42s - loss: 216.1962 - mse: 195.0770 - 42s/epoch - 204ms/step
+Epoch 22/50
+204/204 - 41s - loss: 204.3068 - mse: 194.7786 - 41s/epoch - 201ms/step
+Epoch 23/50
+204/204 - 42s - loss: 197.7464 - mse: 193.7052 - 42s/epoch - 204ms/step
+Epoch 24/50
+204/204 - 42s - loss: 195.5276 - mse: 193.8801 - 42s/epoch - 206ms/step
+Epoch 25/50
+204/204 - 43s - loss: 193.8237 - mse: 193.1416 - 43s/epoch - 210ms/step
+Epoch 26/50
+204/204 - 43s - loss: 193.6767 - mse: 193.3647 - 43s/epoch - 212ms/step
+Epoch 27/50
+204/204 - 51s - loss: 192.1862 - mse: 192.0168 - 51s/epoch - 249ms/step
+Epoch 28/50
+204/204 - 46s - loss: 191.8071 - mse: 191.6962 - 46s/epoch - 227ms/step
+Epoch 29/50
+204/204 - 46s - loss: 190.6078 - mse: 190.5241 - 46s/epoch - 225ms/step
+Epoch 30/50
+204/204 - 46s - loss: 190.2931 - mse: 190.2238 - 46s/epoch - 225ms/step
+Epoch 31/50
+204/204 - 45s - loss: 190.4263 - mse: 190.3649 - 45s/epoch - 222ms/step
+Epoch 32/50
+204/204 - 47s - loss: 189.5172 - mse: 189.4608 - 47s/epoch - 228ms/step
+Epoch 33/50
+204/204 - 49s - loss: 189.4309 - mse: 189.3778 - 49s/epoch - 241ms/step
+Epoch 34/50
+204/204 - 50s - loss: 189.4160 - mse: 189.3651 - 50s/epoch - 246ms/step
+Epoch 35/50
+204/204 - 49s - loss: 188.8770 - mse: 188.8278 - 49s/epoch - 238ms/step
+Epoch 36/50
+204/204 - 51s - loss: 188.8768 - mse: 188.8286 - 51s/epoch - 252ms/step
+Epoch 37/50
+204/204 - 49s - loss: 187.6825 - mse: 187.6352 - 49s/epoch - 241ms/step
+Epoch 38/50
+204/204 - 49s - loss: 188.2100 - mse: 188.1635 - 49s/epoch - 242ms/step
+Epoch 39/50
+204/204 - 47s - loss: 187.7130 - mse: 187.6667 - 47s/epoch - 233ms/step
+Epoch 40/50
+204/204 - 50s - loss: 188.0107 - mse: 187.9650 - 50s/epoch - 244ms/step
+Epoch 41/50
+204/204 - 51s - loss: 186.2846 - mse: 186.2392 - 51s/epoch - 249ms/step
+Epoch 42/50
+204/204 - 49s - loss: 186.8181 - mse: 186.7730 - 49s/epoch - 240ms/step
+Epoch 43/50
+204/204 - 52s - loss: 186.6156 - mse: 186.5708 - 52s/epoch - 253ms/step
+Epoch 44/50
+204/204 - 51s - loss: 185.3986 - mse: 185.3539 - 51s/epoch - 251ms/step
+Epoch 45/50
+204/204 - 50s - loss: 185.9066 - mse: 185.8619 - 50s/epoch - 244ms/step
+Epoch 46/50
+204/204 - 46s - loss: 185.6433 - mse: 185.5987 - 46s/epoch - 228ms/step
+Epoch 47/50
+204/204 - 51s - loss: 184.9085 - mse: 184.8640 - 51s/epoch - 249ms/step
+Epoch 48/50
+204/204 - 49s - loss: 185.3873 - mse: 185.3431 - 49s/epoch - 242ms/step
+Epoch 49/50
+204/204 - 48s - loss: 185.4159 - mse: 185.3716 - 48s/epoch - 237ms/step
+Epoch 50/50
+204/204 - 47s - loss: 184.8101 - mse: 184.7658 - 47s/epoch - 231ms/step
+[2024-04-18 17:55:19] Saving model weights to directory: models\4h 
+Running training for h = 5 hour ahead
+[2024-04-18 17:55:20] Loading from train file: data\solar-wind-data\5h\solar_wind_parameters_data_5_hourly_train.csv 
+[2024-04-18 17:55:20] Loading from test  file: data\solar-wind-data\5h\solar_wind_parameters_data_5_hourly_test.csv 
+[2024-04-18 17:55:20] all_data.columns: Index(['Timestamp', 'YEAR', 'DOY', 'HR', 'ScalarB', 'BX_GSE_GSM', 'BY_GSE',
+       'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature',
+       'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure',
+       'Electric_field', 'Kp_index', 'Kp_German'],
+      dtype='object') 
+[2024-04-18 17:55:20] data columns: Index(['Timestamp', 'YEAR', 'DOY', 'HR', 'ScalarB', 'BX_GSE_GSM', 'BY_GSE',
+       'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature',
+       'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure',
+       'Electric_field', 'Kp_index', 'Kp_German'],
+      dtype='object') 
+[2024-04-18 17:55:20] columns_names: ['ScalarB', 'BX_GSE_GSM', 'BY_GSE', 'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature', 'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure'] 
+Epoch 1/50
+204/204 - 64s - loss: 31787.4414 - mse: 391.1440 - 64s/epoch - 316ms/step
+Epoch 2/50
+204/204 - 47s - loss: 23672.3926 - mse: 338.6104 - 47s/epoch - 231ms/step
+Epoch 3/50
+204/204 - 46s - loss: 17555.3613 - mse: 266.9084 - 46s/epoch - 227ms/step
+Epoch 4/50
+204/204 - 48s - loss: 12985.6309 - mse: 247.0474 - 48s/epoch - 237ms/step
+Epoch 5/50
+204/204 - 47s - loss: 9540.3379 - mse: 235.6969 - 47s/epoch - 232ms/step
+Epoch 6/50
+204/204 - 47s - loss: 6948.7524 - mse: 231.9519 - 47s/epoch - 230ms/step
+Epoch 7/50
+204/204 - 47s - loss: 4999.4717 - mse: 223.3682 - 47s/epoch - 229ms/step
+Epoch 8/50
+204/204 - 47s - loss: 3558.4265 - mse: 220.9418 - 47s/epoch - 229ms/step
+Epoch 9/50
+204/204 - 47s - loss: 2500.3350 - mse: 215.6796 - 47s/epoch - 229ms/step
+Epoch 10/50
+204/204 - 47s - loss: 1741.5162 - mse: 210.7357 - 47s/epoch - 229ms/step
+Epoch 11/50
+204/204 - 47s - loss: 1211.0830 - mse: 210.5869 - 47s/epoch - 230ms/step
+Epoch 12/50
+204/204 - 47s - loss: 844.7625 - mse: 208.9836 - 47s/epoch - 229ms/step
+Epoch 13/50
+204/204 - 47s - loss: 598.9778 - mse: 207.6948 - 47s/epoch - 229ms/step
+Epoch 14/50
+204/204 - 47s - loss: 436.7903 - mse: 204.6016 - 47s/epoch - 230ms/step
+Epoch 15/50
+204/204 - 47s - loss: 336.4706 - mse: 204.3772 - 47s/epoch - 230ms/step
+Epoch 16/50
+204/204 - 47s - loss: 274.3980 - mse: 202.6780 - 47s/epoch - 230ms/step
+Epoch 17/50
+204/204 - 47s - loss: 239.1212 - mse: 202.2701 - 47s/epoch - 229ms/step
+Epoch 18/50
+204/204 - 47s - loss: 217.4216 - mse: 199.6303 - 47s/epoch - 229ms/step
+Epoch 19/50
+204/204 - 47s - loss: 207.5869 - mse: 199.5686 - 47s/epoch - 230ms/step
+Epoch 20/50
+204/204 - 47s - loss: 202.6138 - mse: 199.2607 - 47s/epoch - 229ms/step
+Epoch 21/50
+204/204 - 47s - loss: 197.8953 - mse: 196.5892 - 47s/epoch - 231ms/step
+Epoch 22/50
+204/204 - 47s - loss: 198.0154 - mse: 197.5267 - 47s/epoch - 229ms/step
+Epoch 23/50
+204/204 - 47s - loss: 197.3613 - mse: 197.1687 - 47s/epoch - 230ms/step
+Epoch 24/50
+204/204 - 48s - loss: 196.4550 - mse: 196.3586 - 48s/epoch - 235ms/step
+Epoch 25/50
+204/204 - 47s - loss: 193.9859 - mse: 193.9184 - 47s/epoch - 232ms/step
+Epoch 26/50
+204/204 - 47s - loss: 194.5910 - mse: 194.5324 - 47s/epoch - 232ms/step
+Epoch 27/50
+204/204 - 47s - loss: 193.6290 - mse: 193.5740 - 47s/epoch - 232ms/step
+Epoch 28/50
+204/204 - 47s - loss: 192.7536 - mse: 192.7003 - 47s/epoch - 232ms/step
+Epoch 29/50
+204/204 - 47s - loss: 192.2396 - mse: 192.1877 - 47s/epoch - 232ms/step
+Epoch 30/50
+204/204 - 47s - loss: 192.6048 - mse: 192.5540 - 47s/epoch - 232ms/step
+Epoch 31/50
+204/204 - 47s - loss: 192.0295 - mse: 191.9796 - 47s/epoch - 233ms/step
+Epoch 32/50
+204/204 - 48s - loss: 191.5578 - mse: 191.5087 - 48s/epoch - 233ms/step
+Epoch 33/50
+204/204 - 48s - loss: 192.1635 - mse: 192.1149 - 48s/epoch - 233ms/step
+Epoch 34/50
+204/204 - 48s - loss: 190.4681 - mse: 190.4203 - 48s/epoch - 235ms/step
+Epoch 35/50
+204/204 - 48s - loss: 190.9587 - mse: 190.9114 - 48s/epoch - 234ms/step
+Epoch 36/50
+204/204 - 48s - loss: 190.3520 - mse: 190.3050 - 48s/epoch - 233ms/step
+Epoch 37/50
+204/204 - 48s - loss: 189.9426 - mse: 189.8962 - 48s/epoch - 233ms/step
+Epoch 38/50
+204/204 - 48s - loss: 188.8100 - mse: 188.7640 - 48s/epoch - 233ms/step
+Epoch 39/50
+204/204 - 48s - loss: 188.7128 - mse: 188.6669 - 48s/epoch - 233ms/step
+Epoch 40/50
+204/204 - 48s - loss: 189.1798 - mse: 189.1343 - 48s/epoch - 235ms/step
+Epoch 41/50
+204/204 - 48s - loss: 188.0998 - mse: 188.0545 - 48s/epoch - 233ms/step
+Epoch 42/50
+204/204 - 48s - loss: 188.1936 - mse: 188.1485 - 48s/epoch - 233ms/step
+Epoch 43/50
+204/204 - 48s - loss: 187.7858 - mse: 187.7410 - 48s/epoch - 233ms/step
+Epoch 44/50
+204/204 - 49s - loss: 187.8595 - mse: 187.8149 - 49s/epoch - 238ms/step
+Epoch 45/50
+204/204 - 48s - loss: 187.2099 - mse: 187.1654 - 48s/epoch - 233ms/step
+Epoch 46/50
+204/204 - 48s - loss: 186.1819 - mse: 186.1374 - 48s/epoch - 233ms/step
+Epoch 47/50
+204/204 - 48s - loss: 187.5444 - mse: 187.5001 - 48s/epoch - 233ms/step
+Epoch 48/50
+204/204 - 48s - loss: 185.2254 - mse: 185.1812 - 48s/epoch - 233ms/step
+Epoch 49/50
+204/204 - 48s - loss: 185.8826 - mse: 185.8384 - 48s/epoch - 236ms/step
+Epoch 50/50
+204/204 - 50s - loss: 185.0861 - mse: 185.0420 - 50s/epoch - 244ms/step
+[2024-04-18 18:35:08] Saving model weights to directory: models\5h 
+Running training for h = 6 hour ahead
+[2024-04-18 18:35:09] Loading from train file: data\solar-wind-data\6h\solar_wind_parameters_data_6_hourly_train.csv 
+[2024-04-18 18:35:09] Loading from test  file: data\solar-wind-data\6h\solar_wind_parameters_data_6_hourly_test.csv 
+[2024-04-18 18:35:09] all_data.columns: Index(['Timestamp', 'YEAR', 'DOY', 'HR', 'ScalarB', 'BX_GSE_GSM', 'BY_GSE',
+       'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature',
+       'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure',
+       'Electric_field', 'Kp_index', 'Kp_German'],
+      dtype='object') 
+[2024-04-18 18:35:09] data columns: Index(['Timestamp', 'YEAR', 'DOY', 'HR', 'ScalarB', 'BX_GSE_GSM', 'BY_GSE',
+       'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature',
+       'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure',
+       'Electric_field', 'Kp_index', 'Kp_German'],
+      dtype='object') 
+[2024-04-18 18:35:09] columns_names: ['ScalarB', 'BX_GSE_GSM', 'BY_GSE', 'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature', 'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure'] 
+Epoch 1/50
+204/204 - 65s - loss: 108989.1094 - mse: 383.5702 - 65s/epoch - 321ms/step
+Epoch 2/50
+204/204 - 48s - loss: 89190.5391 - mse: 338.7429 - 48s/epoch - 235ms/step
+Epoch 3/50
+204/204 - 48s - loss: 72517.2344 - mse: 293.6533 - 48s/epoch - 235ms/step
+Epoch 4/50
+204/204 - 48s - loss: 58606.7070 - mse: 263.7919 - 48s/epoch - 235ms/step
+Epoch 5/50
+204/204 - 48s - loss: 47020.1484 - mse: 249.5781 - 48s/epoch - 234ms/step
+Epoch 6/50
+204/204 - 48s - loss: 37372.3477 - mse: 235.9957 - 48s/epoch - 234ms/step
+Epoch 7/50
+204/204 - 48s - loss: 29404.3672 - mse: 226.7141 - 48s/epoch - 234ms/step
+Epoch 8/50
+204/204 - 48s - loss: 22850.9355 - mse: 218.6867 - 48s/epoch - 235ms/step
+Epoch 9/50
+204/204 - 48s - loss: 17514.1934 - mse: 216.4835 - 48s/epoch - 235ms/step
+Epoch 10/50
+204/204 - 48s - loss: 13205.9893 - mse: 212.7156 - 48s/epoch - 233ms/step
+Epoch 11/50
+204/204 - 48s - loss: 9782.4980 - mse: 208.0924 - 48s/epoch - 233ms/step
+Epoch 12/50
+204/204 - 47s - loss: 7112.0522 - mse: 206.9073 - 47s/epoch - 232ms/step
+Epoch 13/50
+204/204 - 48s - loss: 5064.1499 - mse: 203.7048 - 48s/epoch - 237ms/step
+Epoch 14/50
+204/204 - 47s - loss: 3532.2556 - mse: 204.4554 - 47s/epoch - 232ms/step
+Epoch 15/50
+204/204 - 47s - loss: 2411.0435 - mse: 201.6287 - 47s/epoch - 231ms/step
+Epoch 16/50
+204/204 - 47s - loss: 1616.9893 - mse: 200.5157 - 47s/epoch - 231ms/step
+Epoch 17/50
+204/204 - 47s - loss: 1072.1260 - mse: 199.1013 - 47s/epoch - 231ms/step
+Epoch 18/50
+204/204 - 47s - loss: 713.9861 - mse: 198.1198 - 47s/epoch - 231ms/step
+Epoch 19/50
+204/204 - 47s - loss: 487.5146 - mse: 196.9725 - 47s/epoch - 232ms/step
+Epoch 20/50
+204/204 - 47s - loss: 352.6949 - mse: 197.4191 - 47s/epoch - 232ms/step
+Epoch 21/50
+204/204 - 47s - loss: 273.9905 - mse: 195.6791 - 47s/epoch - 232ms/step
+Epoch 22/50
+204/204 - 47s - loss: 232.1186 - mse: 194.9575 - 47s/epoch - 232ms/step
+Epoch 23/50
+204/204 - 47s - loss: 211.0528 - mse: 194.4753 - 47s/epoch - 232ms/step
+Epoch 24/50
+204/204 - 47s - loss: 200.4610 - mse: 193.4793 - 47s/epoch - 231ms/step
+Epoch 25/50
+204/204 - 47s - loss: 195.1001 - mse: 192.2713 - 47s/epoch - 232ms/step
+Epoch 26/50
+204/204 - 47s - loss: 192.9702 - mse: 191.8225 - 47s/epoch - 231ms/step
+Epoch 27/50
+204/204 - 47s - loss: 192.6832 - mse: 192.1844 - 47s/epoch - 232ms/step
+Epoch 28/50
+204/204 - 47s - loss: 192.7995 - mse: 192.5496 - 47s/epoch - 233ms/step
+Epoch 29/50
+204/204 - 48s - loss: 190.1012 - mse: 189.9515 - 48s/epoch - 233ms/step
+Epoch 30/50
+204/204 - 47s - loss: 190.6186 - mse: 190.5138 - 47s/epoch - 231ms/step
+Epoch 31/50
+204/204 - 47s - loss: 190.2933 - mse: 190.2113 - 47s/epoch - 232ms/step
+Epoch 32/50
+204/204 - 49s - loss: 190.1340 - mse: 190.0649 - 49s/epoch - 242ms/step
+Epoch 33/50
+204/204 - 47s - loss: 190.3261 - mse: 190.2646 - 47s/epoch - 232ms/step
+Epoch 34/50
+204/204 - 48s - loss: 188.2686 - mse: 188.2121 - 48s/epoch - 234ms/step
+Epoch 35/50
+204/204 - 49s - loss: 189.0056 - mse: 188.9524 - 49s/epoch - 240ms/step
+Epoch 36/50
+204/204 - 49s - loss: 188.0510 - mse: 188.0000 - 49s/epoch - 238ms/step
+Epoch 37/50
+204/204 - 47s - loss: 188.1296 - mse: 188.0803 - 47s/epoch - 233ms/step
+Epoch 38/50
+204/204 - 47s - loss: 187.7661 - mse: 187.7181 - 47s/epoch - 231ms/step
+Epoch 39/50
+204/204 - 47s - loss: 187.8832 - mse: 187.8359 - 47s/epoch - 232ms/step
+Epoch 40/50
+204/204 - 47s - loss: 187.0709 - mse: 187.0244 - 47s/epoch - 231ms/step
+Epoch 41/50
+204/204 - 47s - loss: 186.8220 - mse: 186.7759 - 47s/epoch - 231ms/step
+Epoch 42/50
+204/204 - 47s - loss: 185.6857 - mse: 185.6400 - 47s/epoch - 231ms/step
+Epoch 43/50
+204/204 - 47s - loss: 186.5378 - mse: 186.4924 - 47s/epoch - 231ms/step
+Epoch 44/50
+204/204 - 47s - loss: 185.4234 - mse: 185.3782 - 47s/epoch - 231ms/step
+Epoch 45/50
+204/204 - 47s - loss: 185.9133 - mse: 185.8683 - 47s/epoch - 231ms/step
+Epoch 46/50
+204/204 - 47s - loss: 185.2282 - mse: 185.1832 - 47s/epoch - 231ms/step
+Epoch 47/50
+204/204 - 48s - loss: 185.3592 - mse: 185.3143 - 48s/epoch - 233ms/step
+Epoch 48/50
+204/204 - 47s - loss: 185.3444 - mse: 185.2996 - 47s/epoch - 231ms/step
+Epoch 49/50
+204/204 - 47s - loss: 184.9536 - mse: 184.9089 - 47s/epoch - 232ms/step
+Epoch 50/50
+204/204 - 47s - loss: 184.5237 - mse: 184.4790 - 47s/epoch - 231ms/step
+[2024-04-18 19:15:07] Saving model weights to directory: models\6h 
+Running training for h = 7 hour ahead
+[2024-04-18 19:15:08] Loading from train file: data\solar-wind-data\7h\solar_wind_parameters_data_7_hourly_train.csv 
+[2024-04-18 19:15:08] Loading from test  file: data\solar-wind-data\7h\solar_wind_parameters_data_7_hourly_test.csv 
+[2024-04-18 19:15:08] all_data.columns: Index(['Timestamp', 'YEAR', 'DOY', 'HR', 'ScalarB', 'BX_GSE_GSM', 'BY_GSE',
+       'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature',
+       'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure',
+       'Electric_field', 'Kp_index', 'Kp_German'],
+      dtype='object') 
+[2024-04-18 19:15:08] data columns: Index(['Timestamp', 'YEAR', 'DOY', 'HR', 'ScalarB', 'BX_GSE_GSM', 'BY_GSE',
+       'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature',
+       'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure',
+       'Electric_field', 'Kp_index', 'Kp_German'],
+      dtype='object') 
+[2024-04-18 19:15:08] columns_names: ['ScalarB', 'BX_GSE_GSM', 'BY_GSE', 'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature', 'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure'] 
+Epoch 1/50
+204/204 - 71s - loss: 56059.6523 - mse: 390.7480 - 71s/epoch - 350ms/step
+Epoch 2/50
+204/204 - 65s - loss: 43260.0664 - mse: 333.3266 - 65s/epoch - 318ms/step
+Epoch 3/50
+204/204 - 64s - loss: 33210.5508 - mse: 291.3844 - 64s/epoch - 313ms/step
+Epoch 4/50
+204/204 - 62s - loss: 25319.4023 - mse: 262.1509 - 62s/epoch - 303ms/step
+Epoch 5/50
+204/204 - 62s - loss: 19135.9609 - mse: 245.0338 - 62s/epoch - 303ms/step
+Epoch 6/50
+204/204 - 62s - loss: 14314.9150 - mse: 237.2469 - 62s/epoch - 303ms/step
+Epoch 7/50
+204/204 - 62s - loss: 10589.7432 - mse: 228.7254 - 62s/epoch - 304ms/step
+Epoch 8/50
+204/204 - 62s - loss: 7752.1504 - mse: 223.0256 - 62s/epoch - 303ms/step
+Epoch 9/50
+204/204 - 62s - loss: 5619.6035 - mse: 220.7319 - 62s/epoch - 303ms/step
+Epoch 10/50
+204/204 - 62s - loss: 4033.4541 - mse: 216.2298 - 62s/epoch - 303ms/step
+Epoch 11/50
+204/204 - 62s - loss: 2872.5220 - mse: 213.4642 - 62s/epoch - 303ms/step
+Epoch 12/50
+204/204 - 62s - loss: 2036.0682 - mse: 211.3934 - 62s/epoch - 304ms/step
+Epoch 13/50
+204/204 - 62s - loss: 1442.0742 - mse: 208.7666 - 62s/epoch - 303ms/step
+Epoch 14/50
+204/204 - 62s - loss: 1028.2157 - mse: 208.3792 - 62s/epoch - 303ms/step
+Epoch 15/50
+204/204 - 62s - loss: 741.6695 - mse: 206.7585 - 62s/epoch - 303ms/step
+Epoch 16/50
+204/204 - 63s - loss: 544.7955 - mse: 203.7246 - 63s/epoch - 309ms/step
+Epoch 17/50
+204/204 - 62s - loss: 413.8428 - mse: 202.5719 - 62s/epoch - 303ms/step
+Epoch 18/50
+204/204 - 63s - loss: 327.2533 - mse: 201.0203 - 63s/epoch - 309ms/step
+Epoch 19/50
+204/204 - 65s - loss: 271.9389 - mse: 199.6781 - 65s/epoch - 320ms/step
+Epoch 20/50
+204/204 - 63s - loss: 239.3017 - mse: 200.0161 - 63s/epoch - 311ms/step
+Epoch 21/50
+204/204 - 62s - loss: 219.7931 - mse: 199.6656 - 62s/epoch - 303ms/step
+Epoch 22/50
+204/204 - 62s - loss: 208.8546 - mse: 199.1899 - 62s/epoch - 303ms/step
+Epoch 23/50
+204/204 - 62s - loss: 201.7641 - mse: 197.4241 - 62s/epoch - 302ms/step
+Epoch 24/50
+204/204 - 62s - loss: 198.8639 - mse: 197.0273 - 62s/epoch - 303ms/step
+Epoch 25/50
+204/204 - 62s - loss: 197.7107 - mse: 196.9572 - 62s/epoch - 303ms/step
+Epoch 26/50
+204/204 - 62s - loss: 195.3633 - mse: 195.0411 - 62s/epoch - 304ms/step
+Epoch 27/50
+204/204 - 62s - loss: 194.5495 - mse: 194.3892 - 62s/epoch - 304ms/step
+Epoch 28/50
+204/204 - 62s - loss: 193.3862 - mse: 193.2870 - 62s/epoch - 303ms/step
+Epoch 29/50
+204/204 - 62s - loss: 194.4081 - mse: 194.3337 - 62s/epoch - 303ms/step
+Epoch 30/50
+204/204 - 63s - loss: 192.8331 - mse: 192.7702 - 63s/epoch - 308ms/step
+Epoch 31/50
+204/204 - 62s - loss: 192.7708 - mse: 192.7142 - 62s/epoch - 303ms/step
+Epoch 32/50
+204/204 - 62s - loss: 192.4333 - mse: 192.3802 - 62s/epoch - 304ms/step
+Epoch 33/50
+204/204 - 62s - loss: 190.7907 - mse: 190.7399 - 62s/epoch - 303ms/step
+Epoch 34/50
+204/204 - 62s - loss: 191.8982 - mse: 191.8489 - 62s/epoch - 304ms/step
+Epoch 35/50
+204/204 - 62s - loss: 189.9832 - mse: 189.9352 - 62s/epoch - 304ms/step
+Epoch 36/50
+204/204 - 62s - loss: 189.9909 - mse: 189.9437 - 62s/epoch - 303ms/step
+Epoch 37/50
+204/204 - 62s - loss: 191.0928 - mse: 191.0463 - 62s/epoch - 304ms/step
+Epoch 38/50
+204/204 - 62s - loss: 189.7892 - mse: 189.7433 - 62s/epoch - 303ms/step
+Epoch 39/50
+204/204 - 61s - loss: 189.4505 - mse: 189.4049 - 61s/epoch - 301ms/step
+Epoch 40/50
+204/204 - 62s - loss: 189.9376 - mse: 189.8924 - 62s/epoch - 302ms/step
+Epoch 41/50
+204/204 - 62s - loss: 188.9931 - mse: 188.9481 - 62s/epoch - 303ms/step
+Epoch 42/50
+204/204 - 62s - loss: 187.7441 - mse: 187.6994 - 62s/epoch - 303ms/step
+Epoch 43/50
+204/204 - 62s - loss: 187.9210 - mse: 187.8766 - 62s/epoch - 302ms/step
+Epoch 44/50
+204/204 - 62s - loss: 187.6645 - mse: 187.6201 - 62s/epoch - 302ms/step
+Epoch 45/50
+204/204 - 63s - loss: 187.9161 - mse: 187.8719 - 63s/epoch - 308ms/step
+Epoch 46/50
+204/204 - 62s - loss: 187.1001 - mse: 187.0559 - 62s/epoch - 302ms/step
+Epoch 47/50
+204/204 - 62s - loss: 187.3942 - mse: 187.3501 - 62s/epoch - 302ms/step
+Epoch 48/50
+204/204 - 62s - loss: 187.4308 - mse: 187.3868 - 62s/epoch - 302ms/step
+Epoch 49/50
+204/204 - 62s - loss: 185.9304 - mse: 185.8865 - 62s/epoch - 302ms/step
+Epoch 50/50
+204/204 - 62s - loss: 185.6793 - mse: 185.6355 - 62s/epoch - 302ms/step
+[2024-04-18 20:07:06] Saving model weights to directory: models\7h 
+Running training for h = 8 hour ahead
+[2024-04-18 20:07:07] Loading from train file: data\solar-wind-data\8h\solar_wind_parameters_data_8_hourly_train.csv 
+[2024-04-18 20:07:07] Loading from test  file: data\solar-wind-data\8h\solar_wind_parameters_data_8_hourly_test.csv 
+[2024-04-18 20:07:07] all_data.columns: Index(['Timestamp', 'YEAR', 'DOY', 'HR', 'ScalarB', 'BX_GSE_GSM', 'BY_GSE',
+       'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature',
+       'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure',
+       'Electric_field', 'Kp_index', 'Kp_German'],
+      dtype='object') 
+[2024-04-18 20:07:07] data columns: Index(['Timestamp', 'YEAR', 'DOY', 'HR', 'ScalarB', 'BX_GSE_GSM', 'BY_GSE',
+       'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature',
+       'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure',
+       'Electric_field', 'Kp_index', 'Kp_German'],
+      dtype='object') 
+[2024-04-18 20:07:07] columns_names: ['ScalarB', 'BX_GSE_GSM', 'BY_GSE', 'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature', 'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure'] 
+Epoch 1/50
+204/204 - 67s - loss: 67772.9453 - mse: 383.2572 - 67s/epoch - 326ms/step
+Epoch 2/50
+204/204 - 49s - loss: 53765.3477 - mse: 351.2004 - 49s/epoch - 242ms/step
+Epoch 3/50
+204/204 - 49s - loss: 42513.4844 - mse: 269.8979 - 49s/epoch - 241ms/step
+Epoch 4/50
+204/204 - 49s - loss: 33401.1094 - mse: 244.2060 - 49s/epoch - 241ms/step
+Epoch 5/50
+204/204 - 49s - loss: 26055.8086 - mse: 233.2569 - 49s/epoch - 241ms/step
+Epoch 6/50
+204/204 - 49s - loss: 20142.3242 - mse: 225.2589 - 49s/epoch - 241ms/step
+Epoch 7/50
+204/204 - 49s - loss: 15396.6982 - mse: 220.0576 - 49s/epoch - 243ms/step
+Epoch 8/50
+204/204 - 49s - loss: 11622.3789 - mse: 217.1848 - 49s/epoch - 241ms/step
+Epoch 9/50
+204/204 - 49s - loss: 8641.1465 - mse: 214.5103 - 49s/epoch - 241ms/step
+Epoch 10/50
+204/204 - 49s - loss: 6314.2148 - mse: 211.0931 - 49s/epoch - 241ms/step
+Epoch 11/50
+204/204 - 50s - loss: 4532.7993 - mse: 209.0239 - 50s/epoch - 247ms/step
+Epoch 12/50
+204/204 - 49s - loss: 3195.9707 - mse: 207.9934 - 49s/epoch - 242ms/step
+Epoch 13/50
+204/204 - 51s - loss: 2213.0696 - mse: 205.1861 - 51s/epoch - 248ms/step
+Epoch 14/50
+204/204 - 50s - loss: 1511.9224 - mse: 205.3712 - 50s/epoch - 246ms/step
+Epoch 15/50
+204/204 - 50s - loss: 1023.5815 - mse: 202.7788 - 50s/epoch - 245ms/step
+Epoch 16/50
+204/204 - 50s - loss: 696.3865 - mse: 200.9777 - 50s/epoch - 243ms/step
+Epoch 17/50
+204/204 - 49s - loss: 486.6635 - mse: 200.5206 - 49s/epoch - 241ms/step
+Epoch 18/50
+204/204 - 49s - loss: 356.6821 - mse: 199.4072 - 49s/epoch - 242ms/step
+Epoch 19/50
+204/204 - 49s - loss: 280.1971 - mse: 198.4868 - 49s/epoch - 241ms/step
+Epoch 20/50
+204/204 - 49s - loss: 238.5275 - mse: 198.6248 - 49s/epoch - 241ms/step
+Epoch 21/50
+204/204 - 49s - loss: 215.4036 - mse: 197.1583 - 49s/epoch - 240ms/step
+Epoch 22/50
+204/204 - 49s - loss: 205.0735 - mse: 197.2467 - 49s/epoch - 241ms/step
+Epoch 23/50
+204/204 - 49s - loss: 197.9317 - mse: 194.7389 - 49s/epoch - 241ms/step
+Epoch 24/50
+204/204 - 49s - loss: 196.8831 - mse: 195.5935 - 49s/epoch - 241ms/step
+Epoch 25/50
+204/204 - 49s - loss: 194.8033 - mse: 194.2511 - 49s/epoch - 242ms/step
+Epoch 26/50
+204/204 - 49s - loss: 194.5464 - mse: 194.2747 - 49s/epoch - 242ms/step
+Epoch 27/50
+204/204 - 49s - loss: 192.9290 - mse: 192.7683 - 49s/epoch - 241ms/step
+Epoch 28/50
+204/204 - 49s - loss: 193.1423 - mse: 193.0311 - 49s/epoch - 241ms/step
+Epoch 29/50
+204/204 - 49s - loss: 191.9878 - mse: 191.9014 - 49s/epoch - 241ms/step
+Epoch 30/50
+204/204 - 51s - loss: 191.2156 - mse: 191.1428 - 51s/epoch - 248ms/step
+Epoch 31/50
+204/204 - 49s - loss: 191.6235 - mse: 191.5588 - 49s/epoch - 241ms/step
+Epoch 32/50
+204/204 - 49s - loss: 191.5096 - mse: 191.4501 - 49s/epoch - 241ms/step
+Epoch 33/50
+204/204 - 49s - loss: 190.8249 - mse: 190.7689 - 49s/epoch - 241ms/step
+Epoch 34/50
+204/204 - 49s - loss: 191.0439 - mse: 190.9904 - 49s/epoch - 241ms/step
+Epoch 35/50
+204/204 - 49s - loss: 190.1273 - mse: 190.0756 - 49s/epoch - 241ms/step
+Epoch 36/50
+204/204 - 49s - loss: 190.2071 - mse: 190.1569 - 49s/epoch - 241ms/step
+Epoch 37/50
+204/204 - 51s - loss: 188.9279 - mse: 188.8786 - 51s/epoch - 249ms/step
+Epoch 38/50
+204/204 - 51s - loss: 188.0063 - mse: 187.9579 - 51s/epoch - 249ms/step
+Epoch 39/50
+204/204 - 49s - loss: 188.2155 - mse: 188.1678 - 49s/epoch - 241ms/step
+Epoch 40/50
+204/204 - 49s - loss: 188.1160 - mse: 188.0688 - 49s/epoch - 241ms/step
+Epoch 41/50
+204/204 - 49s - loss: 187.3149 - mse: 187.2681 - 49s/epoch - 241ms/step
+Epoch 42/50
+204/204 - 49s - loss: 187.7075 - mse: 187.6612 - 49s/epoch - 241ms/step
+Epoch 43/50
+204/204 - 50s - loss: 186.8755 - mse: 186.8294 - 50s/epoch - 243ms/step
+Epoch 44/50
+204/204 - 49s - loss: 186.3150 - mse: 186.2692 - 49s/epoch - 243ms/step
+Epoch 45/50
+204/204 - 49s - loss: 186.1250 - mse: 186.0794 - 49s/epoch - 241ms/step
+Epoch 46/50
+204/204 - 49s - loss: 187.0923 - mse: 187.0469 - 49s/epoch - 241ms/step
+Epoch 47/50
+204/204 - 49s - loss: 186.5974 - mse: 186.5522 - 49s/epoch - 241ms/step
+Epoch 48/50
+204/204 - 51s - loss: 185.2064 - mse: 185.1613 - 51s/epoch - 248ms/step
+Epoch 49/50
+204/204 - 49s - loss: 185.2249 - mse: 185.1799 - 49s/epoch - 241ms/step
+Epoch 50/50
+204/204 - 49s - loss: 184.1981 - mse: 184.1533 - 49s/epoch - 242ms/step
+[2024-04-18 20:48:40] Saving model weights to directory: models\8h 
+Running training for h = 9 hour ahead
+[2024-04-18 20:48:41] Loading from train file: data\solar-wind-data\9h\solar_wind_parameters_data_9_hourly_train.csv 
+[2024-04-18 20:48:41] Loading from test  file: data\solar-wind-data\9h\solar_wind_parameters_data_9_hourly_test.csv 
+[2024-04-18 20:48:41] all_data.columns: Index(['Timestamp', 'YEAR', 'DOY', 'HR', 'ScalarB', 'BX_GSE_GSM', 'BY_GSE',
+       'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature',
+       'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure',
+       'Electric_field', 'Kp_index', 'Kp_German'],
+      dtype='object') 
+[2024-04-18 20:48:41] data columns: Index(['Timestamp', 'YEAR', 'DOY', 'HR', 'ScalarB', 'BX_GSE_GSM', 'BY_GSE',
+       'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature',
+       'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure',
+       'Electric_field', 'Kp_index', 'Kp_German'],
+      dtype='object') 
+[2024-04-18 20:48:41] columns_names: ['ScalarB', 'BX_GSE_GSM', 'BY_GSE', 'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature', 'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure'] 
+Epoch 1/50
+204/204 - 72s - loss: 113956.6953 - mse: 389.1433 - 72s/epoch - 353ms/step
+Epoch 2/50
+204/204 - 54s - loss: 91005.1094 - mse: 362.6183 - 54s/epoch - 266ms/step
+Epoch 3/50
+204/204 - 54s - loss: 72225.3203 - mse: 274.5667 - 54s/epoch - 265ms/step
+Epoch 4/50
+204/204 - 54s - loss: 56966.9180 - mse: 252.4393 - 54s/epoch - 266ms/step
+Epoch 5/50
+204/204 - 54s - loss: 44531.2812 - mse: 238.6369 - 54s/epoch - 265ms/step
+Epoch 6/50
+204/204 - 54s - loss: 34458.9961 - mse: 227.6395 - 54s/epoch - 266ms/step
+Epoch 7/50
+204/204 - 54s - loss: 26379.4434 - mse: 222.6480 - 54s/epoch - 263ms/step
+Epoch 8/50
+204/204 - 54s - loss: 19952.3750 - mse: 217.3618 - 54s/epoch - 263ms/step
+Epoch 9/50
+204/204 - 54s - loss: 14907.6318 - mse: 213.0068 - 54s/epoch - 264ms/step
+Epoch 10/50
+204/204 - 54s - loss: 10985.4023 - mse: 209.7363 - 54s/epoch - 265ms/step
+Epoch 11/50
+204/204 - 54s - loss: 7983.7754 - mse: 207.9042 - 54s/epoch - 263ms/step
+Epoch 12/50
+204/204 - 54s - loss: 5717.9487 - mse: 204.1999 - 54s/epoch - 263ms/step
+Epoch 13/50
+204/204 - 54s - loss: 4036.6555 - mse: 203.1341 - 54s/epoch - 265ms/step
+Epoch 14/50
+204/204 - 54s - loss: 2810.5620 - mse: 202.7043 - 54s/epoch - 266ms/step
+Epoch 15/50
+204/204 - 56s - loss: 1932.6688 - mse: 201.7343 - 56s/epoch - 275ms/step
+Epoch 16/50
+204/204 - 54s - loss: 1316.5669 - mse: 199.9067 - 54s/epoch - 267ms/step
+Epoch 17/50
+204/204 - 57s - loss: 896.7758 - mse: 199.0156 - 57s/epoch - 277ms/step
+Epoch 18/50
+204/204 - 55s - loss: 617.9783 - mse: 198.0433 - 55s/epoch - 268ms/step
+Epoch 19/50
+204/204 - 55s - loss: 440.0501 - mse: 197.5090 - 55s/epoch - 269ms/step
+Epoch 20/50
+204/204 - 54s - loss: 328.9882 - mse: 195.4326 - 54s/epoch - 265ms/step
+Epoch 21/50
+204/204 - 54s - loss: 266.5154 - mse: 196.7829 - 54s/epoch - 265ms/step
+Epoch 22/50
+204/204 - 54s - loss: 230.0967 - mse: 195.7131 - 54s/epoch - 266ms/step
+Epoch 23/50
+204/204 - 54s - loss: 210.1628 - mse: 194.1434 - 54s/epoch - 264ms/step
+Epoch 24/50
+204/204 - 54s - loss: 200.6269 - mse: 193.5506 - 54s/epoch - 265ms/step
+Epoch 25/50
+204/204 - 54s - loss: 195.2619 - mse: 192.2316 - 54s/epoch - 265ms/step
+Epoch 26/50
+204/204 - 54s - loss: 194.8212 - mse: 193.5105 - 54s/epoch - 265ms/step
+Epoch 27/50
+204/204 - 54s - loss: 192.2943 - mse: 191.6839 - 54s/epoch - 267ms/step
+Epoch 28/50
+204/204 - 54s - loss: 192.5157 - mse: 192.1947 - 54s/epoch - 264ms/step
+Epoch 29/50
+204/204 - 54s - loss: 190.5562 - mse: 190.3627 - 54s/epoch - 267ms/step
+Epoch 30/50
+204/204 - 54s - loss: 191.1471 - mse: 191.0138 - 54s/epoch - 265ms/step
+Epoch 31/50
+204/204 - 54s - loss: 190.1695 - mse: 190.0683 - 54s/epoch - 264ms/step
+Epoch 32/50
+204/204 - 55s - loss: 189.4735 - mse: 189.3906 - 55s/epoch - 272ms/step
+Epoch 33/50
+204/204 - 54s - loss: 189.8561 - mse: 189.7846 - 54s/epoch - 265ms/step
+Epoch 34/50
+204/204 - 54s - loss: 188.9363 - mse: 188.8717 - 54s/epoch - 264ms/step
+Epoch 35/50
+204/204 - 54s - loss: 188.2010 - mse: 188.1413 - 54s/epoch - 266ms/step
+Epoch 36/50
+204/204 - 54s - loss: 187.9970 - mse: 187.9407 - 54s/epoch - 265ms/step
+Epoch 37/50
+204/204 - 54s - loss: 187.9845 - mse: 187.9307 - 54s/epoch - 266ms/step
+Epoch 38/50
+204/204 - 54s - loss: 187.5795 - mse: 187.5276 - 54s/epoch - 265ms/step
+Epoch 39/50
+204/204 - 54s - loss: 187.9517 - mse: 187.9011 - 54s/epoch - 264ms/step
+Epoch 40/50
+204/204 - 54s - loss: 188.2124 - mse: 188.1628 - 54s/epoch - 266ms/step
+Epoch 41/50
+204/204 - 54s - loss: 186.8192 - mse: 186.7704 - 54s/epoch - 264ms/step
+Epoch 42/50
+204/204 - 54s - loss: 186.8661 - mse: 186.8179 - 54s/epoch - 264ms/step
+Epoch 43/50
+204/204 - 54s - loss: 186.5858 - mse: 186.5381 - 54s/epoch - 264ms/step
+Epoch 44/50
+204/204 - 54s - loss: 186.1845 - mse: 186.1371 - 54s/epoch - 264ms/step
+Epoch 45/50
+204/204 - 54s - loss: 185.8424 - mse: 185.7953 - 54s/epoch - 264ms/step
+Epoch 46/50
+204/204 - 54s - loss: 185.3719 - mse: 185.3251 - 54s/epoch - 266ms/step
+Epoch 47/50
+204/204 - 54s - loss: 185.7798 - mse: 185.7332 - 54s/epoch - 264ms/step
+Epoch 48/50
+204/204 - 55s - loss: 185.9299 - mse: 185.8835 - 55s/epoch - 268ms/step
+Epoch 49/50
+204/204 - 54s - loss: 184.3676 - mse: 184.3213 - 54s/epoch - 266ms/step
+Epoch 50/50
+204/204 - 54s - loss: 185.1090 - mse: 185.0630 - 54s/epoch - 264ms/step
+[2024-04-18 21:34:12] Saving model weights to directory: models\9h 
+
+Starting hour: 1 ending hour: 9
+Running testing for h = 1 hour ahead
+[2024-04-18 22:55:08] Loading from train file: data\solar-wind-data\1h\solar_wind_parameters_data_1_hourly_train.csv 
+[2024-04-18 22:55:08] Loading from test  file: data\solar-wind-data\1h\solar_wind_parameters_data_1_hourly_test.csv 
+[2024-04-18 22:55:08] all_data.columns: Index(['Timestamp', 'YEAR', 'DOY', 'HR', 'ScalarB', 'BX_GSE_GSM', 'BY_GSE',
+       'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature',
+       'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure',
+       'Electric_field', 'Kp_index', 'Kp_German'],
+      dtype='object') 
+[2024-04-18 22:55:08] data columns: Index(['Timestamp', 'YEAR', 'DOY', 'HR', 'ScalarB', 'BX_GSE_GSM', 'BY_GSE',
+       'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature',
+       'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure',
+       'Electric_field', 'Kp_index', 'Kp_German'],
+      dtype='object') 
+[2024-04-18 22:55:08] columns_names: ['ScalarB', 'BX_GSE_GSM', 'BY_GSE', 'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature', 'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure'] 
+[2024-04-18 22:55:09] size of test: 2123 2123 2123 
+[2024-04-18 22:55:09] y_test max , min: 63 0 
+[2024-04-18 22:55:09] Loading the model and its weights. 
+[2024-04-18 22:55:12] Loading weights from model dir: models\1h 
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 4s 4s/step
+
+Uncertainty Quantification
+  1/100  [===== Uncertainty Quantification ======]  -    1/100 %
+  2/100  [===== Uncertainty Quantification ======]  -    2/100 %
+  3/100  [===== Uncertainty Quantification ======]  -    3/100 %
+  4/100  [===== Uncertainty Quantification ======]  -    4/100 %
+  5/100  [===== Uncertainty Quantification ======]  -    5/100 %
+  6/100  [===== Uncertainty Quantification ======]  -    6/100 %
+  7/100  [===== Uncertainty Quantification ======]  -    7/100 %
+  8/100  [===== Uncertainty Quantification ======]  -    8/100 %
+  9/100  [===== Uncertainty Quantification ======]  -    9/100 %
+ 10/100  [===== Uncertainty Quantification ======]  -   10/100 %
+ 11/100  [===== Uncertainty Quantification ======]  -   11/100 %
+ 12/100  [===== Uncertainty Quantification ======]  -   12/100 %
+ 13/100  [===== Uncertainty Quantification ======]  -   13/100 %
+ 14/100  [===== Uncertainty Quantification ======]  -   14/100 %
+ 15/100  [===== Uncertainty Quantification ======]  -   15/100 %
+ 16/100  [===== Uncertainty Quantification ======]  -   16/100 %
+ 17/100  [===== Uncertainty Quantification ======]  -   17/100 %
+ 18/100  [===== Uncertainty Quantification ======]  -   18/100 %
+ 19/100  [===== Uncertainty Quantification ======]  -   19/100 %
+ 20/100  [===== Uncertainty Quantification ======]  -   20/100 %
+ 21/100  [===== Uncertainty Quantification ======]  -   21/100 %
+ 22/100  [===== Uncertainty Quantification ======]  -   22/100 %
+ 23/100  [===== Uncertainty Quantification ======]  -   23/100 %
+ 24/100  [===== Uncertainty Quantification ======]  -   24/100 %
+ 25/100  [===== Uncertainty Quantification ======]  -   25/100 %
+ 26/100  [===== Uncertainty Quantification ======]  -   26/100 %
+ 27/100  [===== Uncertainty Quantification ======]  -   27/100 %
+ 28/100  [===== Uncertainty Quantification ======]  -   28/100 %
+ 29/100  [===== Uncertainty Quantification ======]  -   28/100 %
+ 30/100  [===== Uncertainty Quantification ======]  -   30/100 %
+ 31/100  [===== Uncertainty Quantification ======]  -   31/100 %
+ 32/100  [===== Uncertainty Quantification ======]  -   32/100 %
+ 33/100  [===== Uncertainty Quantification ======]  -   33/100 %
+ 34/100  [===== Uncertainty Quantification ======]  -   34/100 %
+ 35/100  [===== Uncertainty Quantification ======]  -   35/100 %
+ 36/100  [===== Uncertainty Quantification ======]  -   36/100 %
+ 37/100  [===== Uncertainty Quantification ======]  -   37/100 %
+ 38/100  [===== Uncertainty Quantification ======]  -   38/100 %
+ 39/100  [===== Uncertainty Quantification ======]  -   39/100 %
+ 40/100  [===== Uncertainty Quantification ======]  -   40/100 %
+ 41/100  [===== Uncertainty Quantification ======]  -   41/100 %
+ 42/100  [===== Uncertainty Quantification ======]  -   42/100 %
+ 43/100  [===== Uncertainty Quantification ======]  -   43/100 %
+ 44/100  [===== Uncertainty Quantification ======]  -   44/100 %
+ 45/100  [===== Uncertainty Quantification ======]  -   45/100 %
+ 46/100  [===== Uncertainty Quantification ======]  -   46/100 %
+ 47/100  [===== Uncertainty Quantification ======]  -   47/100 %
+ 48/100  [===== Uncertainty Quantification ======]  -   48/100 %
+ 49/100  [===== Uncertainty Quantification ======]  -   49/100 %
+ 50/100  [===== Uncertainty Quantification ======]  -   50/100 %
+ 51/100  [===== Uncertainty Quantification ======]  -   51/100 %
+ 52/100  [===== Uncertainty Quantification ======]  -   52/100 %
+ 53/100  [===== Uncertainty Quantification ======]  -   53/100 %
+ 54/100  [===== Uncertainty Quantification ======]  -   54/100 %
+ 55/100  [===== Uncertainty Quantification ======]  -   55/100 %
+ 56/100  [===== Uncertainty Quantification ======]  -   56/100 %
+ 57/100  [===== Uncertainty Quantification ======]  -   56/100 %
+ 58/100  [===== Uncertainty Quantification ======]  -   57/100 %
+ 59/100  [===== Uncertainty Quantification ======]  -   59/100 %
+ 60/100  [===== Uncertainty Quantification ======]  -   60/100 %
+ 61/100  [===== Uncertainty Quantification ======]  -   61/100 %
+ 62/100  [===== Uncertainty Quantification ======]  -   62/100 %
+ 63/100  [===== Uncertainty Quantification ======]  -   63/100 %
+ 64/100  [===== Uncertainty Quantification ======]  -   64/100 %
+ 65/100  [===== Uncertainty Quantification ======]  -   65/100 %
+ 66/100  [===== Uncertainty Quantification ======]  -   66/100 %
+ 67/100  [===== Uncertainty Quantification ======]  -   67/100 %
+ 68/100  [===== Uncertainty Quantification ======]  -   68/100 %
+ 69/100  [===== Uncertainty Quantification ======]  -   69/100 %
+ 70/100  [===== Uncertainty Quantification ======]  -   70/100 %
+ 71/100  [===== Uncertainty Quantification ======]  -   71/100 %
+ 72/100  [===== Uncertainty Quantification ======]  -   72/100 %
+ 73/100  [===== Uncertainty Quantification ======]  -   73/100 %
+ 74/100  [===== Uncertainty Quantification ======]  -   74/100 %
+ 75/100  [===== Uncertainty Quantification ======]  -   75/100 %
+ 76/100  [===== Uncertainty Quantification ======]  -   76/100 %
+ 77/100  [===== Uncertainty Quantification ======]  -   77/100 %
+ 78/100  [===== Uncertainty Quantification ======]  -   78/100 %
+ 79/100  [===== Uncertainty Quantification ======]  -   79/100 %
+ 80/100  [===== Uncertainty Quantification ======]  -   80/100 %
+ 81/100  [===== Uncertainty Quantification ======]  -   81/100 %
+ 82/100  [===== Uncertainty Quantification ======]  -   82/100 %
+ 83/100  [===== Uncertainty Quantification ======]  -   83/100 %
+ 84/100  [===== Uncertainty Quantification ======]  -   84/100 %
+ 85/100  [===== Uncertainty Quantification ======]  -   85/100 %
+ 86/100  [===== Uncertainty Quantification ======]  -   86/100 %
+ 87/100  [===== Uncertainty Quantification ======]  -   87/100 %
+ 88/100  [===== Uncertainty Quantification ======]  -   88/100 %
+ 89/100  [===== Uncertainty Quantification ======]  -   89/100 %
+ 90/100  [===== Uncertainty Quantification ======]  -   90/100 %
+ 91/100  [===== Uncertainty Quantification ======]  -   91/100 %
+ 92/100  [===== Uncertainty Quantification ======]  -   92/100 %
+ 93/100  [===== Uncertainty Quantification ======]  -   93/100 %
+ 94/100  [===== Uncertainty Quantification ======]  -   94/100 %
+ 95/100  [===== Uncertainty Quantification ======]  -   95/100 %
+ 96/100  [===== Uncertainty Quantification ======]  -   96/100 %
+ 97/100  [===== Uncertainty Quantification ======]  -   97/100 %
+ 98/100  [===== Uncertainty Quantification ======]  -   98/100 %
+ 99/100  [===== Uncertainty Quantification ======]  -   99/100 %
+100/100  [===== Uncertainty Quantification ======]  -  100/100 %
+[2024-04-18 22:56:44] Saving results... 
+[2024-04-18 22:56:44] [2024-04-18 22:56:44] Saving the result to: Saving the result to: results\kp_1h_results.csv results\kp_1h_results.csv 
+
+[2024-04-18 22:56:44] Saving figure to file: figures\kp_1h_epistemic.png 
+[2024-04-18 22:56:45] Saving figure to file: figures\kp_1h_aleatoric.png 
+Running testing for h = 2 hour ahead
+[2024-04-18 22:56:45] Loading from train file: data\solar-wind-data\2h\solar_wind_parameters_data_2_hourly_train.csv 
+[2024-04-18 22:56:45] Loading from test  file: data\solar-wind-data\2h\solar_wind_parameters_data_2_hourly_test.csv 
+[2024-04-18 22:56:45] all_data.columns: Index(['Timestamp', 'YEAR', 'DOY', 'HR', 'ScalarB', 'BX_GSE_GSM', 'BY_GSE',
+       'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature',
+       'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure',
+       'Electric_field', 'Kp_index', 'Kp_German'],
+      dtype='object') 
+[2024-04-18 22:56:45] data columns: Index(['Timestamp', 'YEAR', 'DOY', 'HR', 'ScalarB', 'BX_GSE_GSM', 'BY_GSE',
+       'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature',
+       'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure',
+       'Electric_field', 'Kp_index', 'Kp_German'],
+      dtype='object') 
+[2024-04-18 22:56:45] columns_names: ['ScalarB', 'BX_GSE_GSM', 'BY_GSE', 'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature', 'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure'] 
+[2024-04-18 22:56:45] size of test: 2124 2124 2124 
+[2024-04-18 22:56:45] y_test max , min: 63 0 
+[2024-04-18 22:56:45] Loading the model and its weights. 
+[2024-04-18 22:56:49] Loading weights from model dir: models\2h 
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 5s 5s/step
+
+Uncertainty Quantification
+  1/100  [===== Uncertainty Quantification ======]  -    1/100 %
+  2/100  [===== Uncertainty Quantification ======]  -    2/100 %
+  3/100  [===== Uncertainty Quantification ======]  -    3/100 %
+  4/100  [===== Uncertainty Quantification ======]  -    4/100 %
+  5/100  [===== Uncertainty Quantification ======]  -    5/100 %
+  6/100  [===== Uncertainty Quantification ======]  -    6/100 %
+  7/100  [===== Uncertainty Quantification ======]  -    7/100 %
+  8/100  [===== Uncertainty Quantification ======]  -    8/100 %
+  9/100  [===== Uncertainty Quantification ======]  -    9/100 %
+ 10/100  [===== Uncertainty Quantification ======]  -   10/100 %
+ 11/100  [===== Uncertainty Quantification ======]  -   11/100 %
+ 12/100  [===== Uncertainty Quantification ======]  -   12/100 %
+ 13/100  [===== Uncertainty Quantification ======]  -   13/100 %
+ 14/100  [===== Uncertainty Quantification ======]  -   14/100 %
+ 15/100  [===== Uncertainty Quantification ======]  -   15/100 %
+ 16/100  [===== Uncertainty Quantification ======]  -   16/100 %
+ 17/100  [===== Uncertainty Quantification ======]  -   17/100 %
+ 18/100  [===== Uncertainty Quantification ======]  -   18/100 %
+ 19/100  [===== Uncertainty Quantification ======]  -   19/100 %
+ 20/100  [===== Uncertainty Quantification ======]  -   20/100 %
+ 21/100  [===== Uncertainty Quantification ======]  -   21/100 %
+ 22/100  [===== Uncertainty Quantification ======]  -   22/100 %
+ 23/100  [===== Uncertainty Quantification ======]  -   23/100 %
+ 24/100  [===== Uncertainty Quantification ======]  -   24/100 %
+ 25/100  [===== Uncertainty Quantification ======]  -   25/100 %
+ 26/100  [===== Uncertainty Quantification ======]  -   26/100 %
+ 27/100  [===== Uncertainty Quantification ======]  -   27/100 %
+ 28/100  [===== Uncertainty Quantification ======]  -   28/100 %
+ 29/100  [===== Uncertainty Quantification ======]  -   28/100 %
+ 30/100  [===== Uncertainty Quantification ======]  -   30/100 %
+ 31/100  [===== Uncertainty Quantification ======]  -   31/100 %
+ 32/100  [===== Uncertainty Quantification ======]  -   32/100 %
+ 33/100  [===== Uncertainty Quantification ======]  -   33/100 %
+ 34/100  [===== Uncertainty Quantification ======]  -   34/100 %
+ 35/100  [===== Uncertainty Quantification ======]  -   35/100 %
+ 36/100  [===== Uncertainty Quantification ======]  -   36/100 %
+ 37/100  [===== Uncertainty Quantification ======]  -   37/100 %
+ 38/100  [===== Uncertainty Quantification ======]  -   38/100 %
+ 39/100  [===== Uncertainty Quantification ======]  -   39/100 %
+ 40/100  [===== Uncertainty Quantification ======]  -   40/100 %
+ 41/100  [===== Uncertainty Quantification ======]  -   41/100 %
+ 42/100  [===== Uncertainty Quantification ======]  -   42/100 %
+ 43/100  [===== Uncertainty Quantification ======]  -   43/100 %
+ 44/100  [===== Uncertainty Quantification ======]  -   44/100 %
+ 45/100  [===== Uncertainty Quantification ======]  -   45/100 %
+ 46/100  [===== Uncertainty Quantification ======]  -   46/100 %
+ 47/100  [===== Uncertainty Quantification ======]  -   47/100 %
+ 48/100  [===== Uncertainty Quantification ======]  -   48/100 %
+ 49/100  [===== Uncertainty Quantification ======]  -   49/100 %
+ 50/100  [===== Uncertainty Quantification ======]  -   50/100 %
+ 51/100  [===== Uncertainty Quantification ======]  -   51/100 %
+ 52/100  [===== Uncertainty Quantification ======]  -   52/100 %
+ 53/100  [===== Uncertainty Quantification ======]  -   53/100 %
+ 54/100  [===== Uncertainty Quantification ======]  -   54/100 %
+ 55/100  [===== Uncertainty Quantification ======]  -   55/100 %
+ 56/100  [===== Uncertainty Quantification ======]  -   56/100 %
+ 57/100  [===== Uncertainty Quantification ======]  -   56/100 %
+ 58/100  [===== Uncertainty Quantification ======]  -   57/100 %
+ 59/100  [===== Uncertainty Quantification ======]  -   59/100 %
+ 60/100  [===== Uncertainty Quantification ======]  -   60/100 %
+ 61/100  [===== Uncertainty Quantification ======]  -   61/100 %
+ 62/100  [===== Uncertainty Quantification ======]  -   62/100 %
+ 63/100  [===== Uncertainty Quantification ======]  -   63/100 %
+ 64/100  [===== Uncertainty Quantification ======]  -   64/100 %
+ 65/100  [===== Uncertainty Quantification ======]  -   65/100 %
+ 66/100  [===== Uncertainty Quantification ======]  -   66/100 %
+ 67/100  [===== Uncertainty Quantification ======]  -   67/100 %
+ 68/100  [===== Uncertainty Quantification ======]  -   68/100 %
+ 69/100  [===== Uncertainty Quantification ======]  -   69/100 %
+ 70/100  [===== Uncertainty Quantification ======]  -   70/100 %
+ 71/100  [===== Uncertainty Quantification ======]  -   71/100 %
+ 72/100  [===== Uncertainty Quantification ======]  -   72/100 %
+ 73/100  [===== Uncertainty Quantification ======]  -   73/100 %
+ 74/100  [===== Uncertainty Quantification ======]  -   74/100 %
+ 75/100  [===== Uncertainty Quantification ======]  -   75/100 %
+ 76/100  [===== Uncertainty Quantification ======]  -   76/100 %
+ 77/100  [===== Uncertainty Quantification ======]  -   77/100 %
+ 78/100  [===== Uncertainty Quantification ======]  -   78/100 %
+ 79/100  [===== Uncertainty Quantification ======]  -   79/100 %
+ 80/100  [===== Uncertainty Quantification ======]  -   80/100 %
+ 81/100  [===== Uncertainty Quantification ======]  -   81/100 %
+ 82/100  [===== Uncertainty Quantification ======]  -   82/100 %
+ 83/100  [===== Uncertainty Quantification ======]  -   83/100 %
+ 84/100  [===== Uncertainty Quantification ======]  -   84/100 %
+ 85/100  [===== Uncertainty Quantification ======]  -   85/100 %
+ 86/100  [===== Uncertainty Quantification ======]  -   86/100 %
+ 87/100  [===== Uncertainty Quantification ======]  -   87/100 %
+ 88/100  [===== Uncertainty Quantification ======]  -   88/100 %
+ 89/100  [===== Uncertainty Quantification ======]  -   89/100 %
+ 90/100  [===== Uncertainty Quantification ======]  -   90/100 %
+ 91/100  [===== Uncertainty Quantification ======]  -   91/100 %
+ 92/100  [===== Uncertainty Quantification ======]  -   92/100 %
+ 93/100  [===== Uncertainty Quantification ======]  -   93/100 %
+ 94/100  [===== Uncertainty Quantification ======]  -   94/100 %
+ 95/100  [===== Uncertainty Quantification ======]  -   95/100 %
+ 96/100  [===== Uncertainty Quantification ======]  -   96/100 %
+ 97/100  [===== Uncertainty Quantification ======]  -   97/100 %
+ 98/100  [===== Uncertainty Quantification ======]  -   98/100 %
+ 99/100  [===== Uncertainty Quantification ======]  -   99/100 %
+100/100  [===== Uncertainty Quantification ======]  -  100/100 %
+[2024-04-18 22:58:21] Saving results... 
+[2024-04-18 22:58:21] [2024-04-18 22:58:21] Saving the result to: Saving the result to: results\kp_2h_results.csv results\kp_2h_results.csv 
+
+[2024-04-18 22:58:21] Saving figure to file: figures\kp_2h_epistemic.png 
+[2024-04-18 22:58:21] Saving figure to file: figures\kp_2h_aleatoric.png 
+Running testing for h = 3 hour ahead
+[2024-04-18 22:58:21] Loading from train file: data\solar-wind-data\3h\solar_wind_parameters_data_3_hourly_train.csv 
+[2024-04-18 22:58:21] Loading from test  file: data\solar-wind-data\3h\solar_wind_parameters_data_3_hourly_test.csv 
+[2024-04-18 22:58:21] all_data.columns: Index(['Timestamp', 'YEAR', 'DOY', 'HR', 'ScalarB', 'BX_GSE_GSM', 'BY_GSE',
+       'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature',
+       'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure',
+       'Electric_field', 'Kp_index', 'Kp_German'],
+      dtype='object') 
+[2024-04-18 22:58:21] data columns: Index(['Timestamp', 'YEAR', 'DOY', 'HR', 'ScalarB', 'BX_GSE_GSM', 'BY_GSE',
+       'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature',
+       'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure',
+       'Electric_field', 'Kp_index', 'Kp_German'],
+      dtype='object') 
+[2024-04-18 22:58:21] columns_names: ['ScalarB', 'BX_GSE_GSM', 'BY_GSE', 'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature', 'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure'] 
+[2024-04-18 22:58:22] size of test: 2125 2125 2125 
+[2024-04-18 22:58:22] y_test max , min: 63 0 
+[2024-04-18 22:58:22] Loading the model and its weights. 
+[2024-04-18 22:58:25] Loading weights from model dir: models\3h 
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 4s 4s/step
+
+Uncertainty Quantification
+  1/100  [===== Uncertainty Quantification ======]  -    1/100 %
+  2/100  [===== Uncertainty Quantification ======]  -    2/100 %
+  3/100  [===== Uncertainty Quantification ======]  -    3/100 %
+  4/100  [===== Uncertainty Quantification ======]  -    4/100 %
+  5/100  [===== Uncertainty Quantification ======]  -    5/100 %
+  6/100  [===== Uncertainty Quantification ======]  -    6/100 %
+  7/100  [===== Uncertainty Quantification ======]  -    7/100 %
+  8/100  [===== Uncertainty Quantification ======]  -    8/100 %
+  9/100  [===== Uncertainty Quantification ======]  -    9/100 %
+ 10/100  [===== Uncertainty Quantification ======]  -   10/100 %
+ 11/100  [===== Uncertainty Quantification ======]  -   11/100 %
+ 12/100  [===== Uncertainty Quantification ======]  -   12/100 %
+ 13/100  [===== Uncertainty Quantification ======]  -   13/100 %
+ 14/100  [===== Uncertainty Quantification ======]  -   14/100 %
+ 15/100  [===== Uncertainty Quantification ======]  -   15/100 %
+ 16/100  [===== Uncertainty Quantification ======]  -   16/100 %
+ 17/100  [===== Uncertainty Quantification ======]  -   17/100 %
+ 18/100  [===== Uncertainty Quantification ======]  -   18/100 %
+ 19/100  [===== Uncertainty Quantification ======]  -   19/100 %
+ 20/100  [===== Uncertainty Quantification ======]  -   20/100 %
+ 21/100  [===== Uncertainty Quantification ======]  -   21/100 %
+ 22/100  [===== Uncertainty Quantification ======]  -   22/100 %
+ 23/100  [===== Uncertainty Quantification ======]  -   23/100 %
+ 24/100  [===== Uncertainty Quantification ======]  -   24/100 %
+ 25/100  [===== Uncertainty Quantification ======]  -   25/100 %
+ 26/100  [===== Uncertainty Quantification ======]  -   26/100 %
+ 27/100  [===== Uncertainty Quantification ======]  -   27/100 %
+ 28/100  [===== Uncertainty Quantification ======]  -   28/100 %
+ 29/100  [===== Uncertainty Quantification ======]  -   28/100 %
+ 30/100  [===== Uncertainty Quantification ======]  -   30/100 %
+ 31/100  [===== Uncertainty Quantification ======]  -   31/100 %
+ 32/100  [===== Uncertainty Quantification ======]  -   32/100 %
+ 33/100  [===== Uncertainty Quantification ======]  -   33/100 %
+ 34/100  [===== Uncertainty Quantification ======]  -   34/100 %
+ 35/100  [===== Uncertainty Quantification ======]  -   35/100 %
+ 36/100  [===== Uncertainty Quantification ======]  -   36/100 %
+ 37/100  [===== Uncertainty Quantification ======]  -   37/100 %
+ 38/100  [===== Uncertainty Quantification ======]  -   38/100 %
+ 39/100  [===== Uncertainty Quantification ======]  -   39/100 %
+ 40/100  [===== Uncertainty Quantification ======]  -   40/100 %
+ 41/100  [===== Uncertainty Quantification ======]  -   41/100 %
+ 42/100  [===== Uncertainty Quantification ======]  -   42/100 %
+ 43/100  [===== Uncertainty Quantification ======]  -   43/100 %
+ 44/100  [===== Uncertainty Quantification ======]  -   44/100 %
+ 45/100  [===== Uncertainty Quantification ======]  -   45/100 %
+ 46/100  [===== Uncertainty Quantification ======]  -   46/100 %
+ 47/100  [===== Uncertainty Quantification ======]  -   47/100 %
+ 48/100  [===== Uncertainty Quantification ======]  -   48/100 %
+ 49/100  [===== Uncertainty Quantification ======]  -   49/100 %
+ 50/100  [===== Uncertainty Quantification ======]  -   50/100 %
+ 51/100  [===== Uncertainty Quantification ======]  -   51/100 %
+ 52/100  [===== Uncertainty Quantification ======]  -   52/100 %
+ 53/100  [===== Uncertainty Quantification ======]  -   53/100 %
+ 54/100  [===== Uncertainty Quantification ======]  -   54/100 %
+ 55/100  [===== Uncertainty Quantification ======]  -   55/100 %
+ 56/100  [===== Uncertainty Quantification ======]  -   56/100 %
+ 57/100  [===== Uncertainty Quantification ======]  -   56/100 %
+ 58/100  [===== Uncertainty Quantification ======]  -   57/100 %
+ 59/100  [===== Uncertainty Quantification ======]  -   59/100 %
+ 60/100  [===== Uncertainty Quantification ======]  -   60/100 %
+ 61/100  [===== Uncertainty Quantification ======]  -   61/100 %
+ 62/100  [===== Uncertainty Quantification ======]  -   62/100 %
+ 63/100  [===== Uncertainty Quantification ======]  -   63/100 %
+ 64/100  [===== Uncertainty Quantification ======]  -   64/100 %
+ 65/100  [===== Uncertainty Quantification ======]  -   65/100 %
+ 66/100  [===== Uncertainty Quantification ======]  -   66/100 %
+ 67/100  [===== Uncertainty Quantification ======]  -   67/100 %
+ 68/100  [===== Uncertainty Quantification ======]  -   68/100 %
+ 69/100  [===== Uncertainty Quantification ======]  -   69/100 %
+ 70/100  [===== Uncertainty Quantification ======]  -   70/100 %
+ 71/100  [===== Uncertainty Quantification ======]  -   71/100 %
+ 72/100  [===== Uncertainty Quantification ======]  -   72/100 %
+ 73/100  [===== Uncertainty Quantification ======]  -   73/100 %
+ 74/100  [===== Uncertainty Quantification ======]  -   74/100 %
+ 75/100  [===== Uncertainty Quantification ======]  -   75/100 %
+ 76/100  [===== Uncertainty Quantification ======]  -   76/100 %
+ 77/100  [===== Uncertainty Quantification ======]  -   77/100 %
+ 78/100  [===== Uncertainty Quantification ======]  -   78/100 %
+ 79/100  [===== Uncertainty Quantification ======]  -   79/100 %
+ 80/100  [===== Uncertainty Quantification ======]  -   80/100 %
+ 81/100  [===== Uncertainty Quantification ======]  -   81/100 %
+ 82/100  [===== Uncertainty Quantification ======]  -   82/100 %
+ 83/100  [===== Uncertainty Quantification ======]  -   83/100 %
+ 84/100  [===== Uncertainty Quantification ======]  -   84/100 %
+ 85/100  [===== Uncertainty Quantification ======]  -   85/100 %
+ 86/100  [===== Uncertainty Quantification ======]  -   86/100 %
+ 87/100  [===== Uncertainty Quantification ======]  -   87/100 %
+ 88/100  [===== Uncertainty Quantification ======]  -   88/100 %
+ 89/100  [===== Uncertainty Quantification ======]  -   89/100 %
+ 90/100  [===== Uncertainty Quantification ======]  -   90/100 %
+ 91/100  [===== Uncertainty Quantification ======]  -   91/100 %
+ 92/100  [===== Uncertainty Quantification ======]  -   92/100 %
+ 93/100  [===== Uncertainty Quantification ======]  -   93/100 %
+ 94/100  [===== Uncertainty Quantification ======]  -   94/100 %
+ 95/100  [===== Uncertainty Quantification ======]  -   95/100 %
+ 96/100  [===== Uncertainty Quantification ======]  -   96/100 %
+ 97/100  [===== Uncertainty Quantification ======]  -   97/100 %
+ 98/100  [===== Uncertainty Quantification ======]  -   98/100 %
+ 99/100  [===== Uncertainty Quantification ======]  -   99/100 %
+100/100  [===== Uncertainty Quantification ======]  -  100/100 %
+[2024-04-18 22:59:58] Saving results... 
+[2024-04-18 22:59:58] [2024-04-18 22:59:58] Saving the result to: Saving the result to: results\kp_3h_results.csv results\kp_3h_results.csv 
+
+[2024-04-18 22:59:58] Saving figure to file: figures\kp_3h_epistemic.png 
+[2024-04-18 22:59:58] Saving figure to file: figures\kp_3h_aleatoric.png 
+Running testing for h = 4 hour ahead
+[2024-04-18 22:59:59] Loading from train file: data\solar-wind-data\4h\solar_wind_parameters_data_4_hourly_train.csv 
+[2024-04-18 22:59:59] Loading from test  file: data\solar-wind-data\4h\solar_wind_parameters_data_4_hourly_test.csv 
+[2024-04-18 22:59:59] all_data.columns: Index(['Timestamp', 'YEAR', 'DOY', 'HR', 'ScalarB', 'BX_GSE_GSM', 'BY_GSE',
+       'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature',
+       'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure',
+       'Electric_field', 'Kp_index', 'Kp_German'],
+      dtype='object') 
+[2024-04-18 22:59:59] data columns: Index(['Timestamp', 'YEAR', 'DOY', 'HR', 'ScalarB', 'BX_GSE_GSM', 'BY_GSE',
+       'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature',
+       'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure',
+       'Electric_field', 'Kp_index', 'Kp_German'],
+      dtype='object') 
+[2024-04-18 22:59:59] columns_names: ['ScalarB', 'BX_GSE_GSM', 'BY_GSE', 'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature', 'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure'] 
+[2024-04-18 22:59:59] size of test: 2126 2126 2126 
+[2024-04-18 22:59:59] y_test max , min: 63 0 
+[2024-04-18 22:59:59] Loading the model and its weights. 
+[2024-04-18 23:00:02] Loading weights from model dir: models\4h 
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 4s 4s/step
+
+Uncertainty Quantification
+  1/100  [===== Uncertainty Quantification ======]  -    1/100 %
+  2/100  [===== Uncertainty Quantification ======]  -    2/100 %
+  3/100  [===== Uncertainty Quantification ======]  -    3/100 %
+  4/100  [===== Uncertainty Quantification ======]  -    4/100 %
+  5/100  [===== Uncertainty Quantification ======]  -    5/100 %
+  6/100  [===== Uncertainty Quantification ======]  -    6/100 %
+  7/100  [===== Uncertainty Quantification ======]  -    7/100 %
+  8/100  [===== Uncertainty Quantification ======]  -    8/100 %
+  9/100  [===== Uncertainty Quantification ======]  -    9/100 %
+ 10/100  [===== Uncertainty Quantification ======]  -   10/100 %
+ 11/100  [===== Uncertainty Quantification ======]  -   11/100 %
+ 12/100  [===== Uncertainty Quantification ======]  -   12/100 %
+ 13/100  [===== Uncertainty Quantification ======]  -   13/100 %
+ 14/100  [===== Uncertainty Quantification ======]  -   14/100 %
+ 15/100  [===== Uncertainty Quantification ======]  -   15/100 %
+ 16/100  [===== Uncertainty Quantification ======]  -   16/100 %
+ 17/100  [===== Uncertainty Quantification ======]  -   17/100 %
+ 18/100  [===== Uncertainty Quantification ======]  -   18/100 %
+ 19/100  [===== Uncertainty Quantification ======]  -   19/100 %
+ 20/100  [===== Uncertainty Quantification ======]  -   20/100 %
+ 21/100  [===== Uncertainty Quantification ======]  -   21/100 %
+ 22/100  [===== Uncertainty Quantification ======]  -   22/100 %
+ 23/100  [===== Uncertainty Quantification ======]  -   23/100 %
+ 24/100  [===== Uncertainty Quantification ======]  -   24/100 %
+ 25/100  [===== Uncertainty Quantification ======]  -   25/100 %
+ 26/100  [===== Uncertainty Quantification ======]  -   26/100 %
+ 27/100  [===== Uncertainty Quantification ======]  -   27/100 %
+ 28/100  [===== Uncertainty Quantification ======]  -   28/100 %
+ 29/100  [===== Uncertainty Quantification ======]  -   28/100 %
+ 30/100  [===== Uncertainty Quantification ======]  -   30/100 %
+ 31/100  [===== Uncertainty Quantification ======]  -   31/100 %
+ 32/100  [===== Uncertainty Quantification ======]  -   32/100 %
+ 33/100  [===== Uncertainty Quantification ======]  -   33/100 %
+ 34/100  [===== Uncertainty Quantification ======]  -   34/100 %
+ 35/100  [===== Uncertainty Quantification ======]  -   35/100 %
+ 36/100  [===== Uncertainty Quantification ======]  -   36/100 %
+ 37/100  [===== Uncertainty Quantification ======]  -   37/100 %
+ 38/100  [===== Uncertainty Quantification ======]  -   38/100 %
+ 39/100  [===== Uncertainty Quantification ======]  -   39/100 %
+ 40/100  [===== Uncertainty Quantification ======]  -   40/100 %
+ 41/100  [===== Uncertainty Quantification ======]  -   41/100 %
+ 42/100  [===== Uncertainty Quantification ======]  -   42/100 %
+ 43/100  [===== Uncertainty Quantification ======]  -   43/100 %
+ 44/100  [===== Uncertainty Quantification ======]  -   44/100 %
+ 45/100  [===== Uncertainty Quantification ======]  -   45/100 %
+ 46/100  [===== Uncertainty Quantification ======]  -   46/100 %
+ 47/100  [===== Uncertainty Quantification ======]  -   47/100 %
+ 48/100  [===== Uncertainty Quantification ======]  -   48/100 %
+ 49/100  [===== Uncertainty Quantification ======]  -   49/100 %
+ 50/100  [===== Uncertainty Quantification ======]  -   50/100 %
+ 51/100  [===== Uncertainty Quantification ======]  -   51/100 %
+ 52/100  [===== Uncertainty Quantification ======]  -   52/100 %
+ 53/100  [===== Uncertainty Quantification ======]  -   53/100 %
+ 54/100  [===== Uncertainty Quantification ======]  -   54/100 %
+ 55/100  [===== Uncertainty Quantification ======]  -   55/100 %
+ 56/100  [===== Uncertainty Quantification ======]  -   56/100 %
+ 57/100  [===== Uncertainty Quantification ======]  -   56/100 %
+ 58/100  [===== Uncertainty Quantification ======]  -   57/100 %
+ 59/100  [===== Uncertainty Quantification ======]  -   59/100 %
+ 60/100  [===== Uncertainty Quantification ======]  -   60/100 %
+ 61/100  [===== Uncertainty Quantification ======]  -   61/100 %
+ 62/100  [===== Uncertainty Quantification ======]  -   62/100 %
+ 63/100  [===== Uncertainty Quantification ======]  -   63/100 %
+ 64/100  [===== Uncertainty Quantification ======]  -   64/100 %
+ 65/100  [===== Uncertainty Quantification ======]  -   65/100 %
+ 66/100  [===== Uncertainty Quantification ======]  -   66/100 %
+ 67/100  [===== Uncertainty Quantification ======]  -   67/100 %
+ 68/100  [===== Uncertainty Quantification ======]  -   68/100 %
+ 69/100  [===== Uncertainty Quantification ======]  -   69/100 %
+ 70/100  [===== Uncertainty Quantification ======]  -   70/100 %
+ 71/100  [===== Uncertainty Quantification ======]  -   71/100 %
+ 72/100  [===== Uncertainty Quantification ======]  -   72/100 %
+ 73/100  [===== Uncertainty Quantification ======]  -   73/100 %
+ 74/100  [===== Uncertainty Quantification ======]  -   74/100 %
+ 75/100  [===== Uncertainty Quantification ======]  -   75/100 %
+ 76/100  [===== Uncertainty Quantification ======]  -   76/100 %
+ 77/100  [===== Uncertainty Quantification ======]  -   77/100 %
+ 78/100  [===== Uncertainty Quantification ======]  -   78/100 %
+ 79/100  [===== Uncertainty Quantification ======]  -   79/100 %
+ 80/100  [===== Uncertainty Quantification ======]  -   80/100 %
+ 81/100  [===== Uncertainty Quantification ======]  -   81/100 %
+ 82/100  [===== Uncertainty Quantification ======]  -   82/100 %
+ 83/100  [===== Uncertainty Quantification ======]  -   83/100 %
+ 84/100  [===== Uncertainty Quantification ======]  -   84/100 %
+ 85/100  [===== Uncertainty Quantification ======]  -   85/100 %
+ 86/100  [===== Uncertainty Quantification ======]  -   86/100 %
+ 87/100  [===== Uncertainty Quantification ======]  -   87/100 %
+ 88/100  [===== Uncertainty Quantification ======]  -   88/100 %
+ 89/100  [===== Uncertainty Quantification ======]  -   89/100 %
+ 90/100  [===== Uncertainty Quantification ======]  -   90/100 %
+ 91/100  [===== Uncertainty Quantification ======]  -   91/100 %
+ 92/100  [===== Uncertainty Quantification ======]  -   92/100 %
+ 93/100  [===== Uncertainty Quantification ======]  -   93/100 %
+ 94/100  [===== Uncertainty Quantification ======]  -   94/100 %
+ 95/100  [===== Uncertainty Quantification ======]  -   95/100 %
+ 96/100  [===== Uncertainty Quantification ======]  -   96/100 %
+ 97/100  [===== Uncertainty Quantification ======]  -   97/100 %
+ 98/100  [===== Uncertainty Quantification ======]  -   98/100 %
+ 99/100  [===== Uncertainty Quantification ======]  -   99/100 %
+100/100  [===== Uncertainty Quantification ======]  -  100/100 %
+[2024-04-18 23:01:36] Saving results... 
+[2024-04-18 23:01:36] [2024-04-18 23:01:36] Saving the result to: Saving the result to: results\kp_4h_results.csv results\kp_4h_results.csv 
+
+[2024-04-18 23:01:36] Saving figure to file: figures\kp_4h_epistemic.png 
+[2024-04-18 23:01:37] Saving figure to file: figures\kp_4h_aleatoric.png 
+Running testing for h = 5 hour ahead
+[2024-04-18 23:01:37] Loading from train file: data\solar-wind-data\5h\solar_wind_parameters_data_5_hourly_train.csv 
+[2024-04-18 23:01:37] Loading from test  file: data\solar-wind-data\5h\solar_wind_parameters_data_5_hourly_test.csv 
+[2024-04-18 23:01:37] all_data.columns: Index(['Timestamp', 'YEAR', 'DOY', 'HR', 'ScalarB', 'BX_GSE_GSM', 'BY_GSE',
+       'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature',
+       'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure',
+       'Electric_field', 'Kp_index', 'Kp_German'],
+      dtype='object') 
+[2024-04-18 23:01:37] data columns: Index(['Timestamp', 'YEAR', 'DOY', 'HR', 'ScalarB', 'BX_GSE_GSM', 'BY_GSE',
+       'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature',
+       'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure',
+       'Electric_field', 'Kp_index', 'Kp_German'],
+      dtype='object') 
+[2024-04-18 23:01:37] columns_names: ['ScalarB', 'BX_GSE_GSM', 'BY_GSE', 'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature', 'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure'] 
+[2024-04-18 23:01:37] size of test: 2127 2127 2127 
+[2024-04-18 23:01:37] y_test max , min: 63 0 
+[2024-04-18 23:01:37] Loading the model and its weights. 
+[2024-04-18 23:01:41] Loading weights from model dir: models\5h 
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 4s 4s/step
+
+Uncertainty Quantification
+  1/100  [===== Uncertainty Quantification ======]  -    1/100 %
+  2/100  [===== Uncertainty Quantification ======]  -    2/100 %
+  3/100  [===== Uncertainty Quantification ======]  -    3/100 %
+  4/100  [===== Uncertainty Quantification ======]  -    4/100 %
+  5/100  [===== Uncertainty Quantification ======]  -    5/100 %
+  6/100  [===== Uncertainty Quantification ======]  -    6/100 %
+  7/100  [===== Uncertainty Quantification ======]  -    7/100 %
+  8/100  [===== Uncertainty Quantification ======]  -    8/100 %
+  9/100  [===== Uncertainty Quantification ======]  -    9/100 %
+ 10/100  [===== Uncertainty Quantification ======]  -   10/100 %
+ 11/100  [===== Uncertainty Quantification ======]  -   11/100 %
+ 12/100  [===== Uncertainty Quantification ======]  -   12/100 %
+ 13/100  [===== Uncertainty Quantification ======]  -   13/100 %
+ 14/100  [===== Uncertainty Quantification ======]  -   14/100 %
+ 15/100  [===== Uncertainty Quantification ======]  -   15/100 %
+ 16/100  [===== Uncertainty Quantification ======]  -   16/100 %
+ 17/100  [===== Uncertainty Quantification ======]  -   17/100 %
+ 18/100  [===== Uncertainty Quantification ======]  -   18/100 %
+ 19/100  [===== Uncertainty Quantification ======]  -   19/100 %
+ 20/100  [===== Uncertainty Quantification ======]  -   20/100 %
+ 21/100  [===== Uncertainty Quantification ======]  -   21/100 %
+ 22/100  [===== Uncertainty Quantification ======]  -   22/100 %
+ 23/100  [===== Uncertainty Quantification ======]  -   23/100 %
+ 24/100  [===== Uncertainty Quantification ======]  -   24/100 %
+ 25/100  [===== Uncertainty Quantification ======]  -   25/100 %
+ 26/100  [===== Uncertainty Quantification ======]  -   26/100 %
+ 27/100  [===== Uncertainty Quantification ======]  -   27/100 %
+ 28/100  [===== Uncertainty Quantification ======]  -   28/100 %
+ 29/100  [===== Uncertainty Quantification ======]  -   28/100 %
+ 30/100  [===== Uncertainty Quantification ======]  -   30/100 %
+ 31/100  [===== Uncertainty Quantification ======]  -   31/100 %
+ 32/100  [===== Uncertainty Quantification ======]  -   32/100 %
+ 33/100  [===== Uncertainty Quantification ======]  -   33/100 %
+ 34/100  [===== Uncertainty Quantification ======]  -   34/100 %
+ 35/100  [===== Uncertainty Quantification ======]  -   35/100 %
+ 36/100  [===== Uncertainty Quantification ======]  -   36/100 %
+ 37/100  [===== Uncertainty Quantification ======]  -   37/100 %
+ 38/100  [===== Uncertainty Quantification ======]  -   38/100 %
+ 39/100  [===== Uncertainty Quantification ======]  -   39/100 %
+ 40/100  [===== Uncertainty Quantification ======]  -   40/100 %
+ 41/100  [===== Uncertainty Quantification ======]  -   41/100 %
+ 42/100  [===== Uncertainty Quantification ======]  -   42/100 %
+ 43/100  [===== Uncertainty Quantification ======]  -   43/100 %
+ 44/100  [===== Uncertainty Quantification ======]  -   44/100 %
+ 45/100  [===== Uncertainty Quantification ======]  -   45/100 %
+ 46/100  [===== Uncertainty Quantification ======]  -   46/100 %
+ 47/100  [===== Uncertainty Quantification ======]  -   47/100 %
+ 48/100  [===== Uncertainty Quantification ======]  -   48/100 %
+ 49/100  [===== Uncertainty Quantification ======]  -   49/100 %
+ 50/100  [===== Uncertainty Quantification ======]  -   50/100 %
+ 51/100  [===== Uncertainty Quantification ======]  -   51/100 %
+ 52/100  [===== Uncertainty Quantification ======]  -   52/100 %
+ 53/100  [===== Uncertainty Quantification ======]  -   53/100 %
+ 54/100  [===== Uncertainty Quantification ======]  -   54/100 %
+ 55/100  [===== Uncertainty Quantification ======]  -   55/100 %
+ 56/100  [===== Uncertainty Quantification ======]  -   56/100 %
+ 57/100  [===== Uncertainty Quantification ======]  -   56/100 %
+ 58/100  [===== Uncertainty Quantification ======]  -   57/100 %
+ 59/100  [===== Uncertainty Quantification ======]  -   59/100 %
+ 60/100  [===== Uncertainty Quantification ======]  -   60/100 %
+ 61/100  [===== Uncertainty Quantification ======]  -   61/100 %
+ 62/100  [===== Uncertainty Quantification ======]  -   62/100 %
+ 63/100  [===== Uncertainty Quantification ======]  -   63/100 %
+ 64/100  [===== Uncertainty Quantification ======]  -   64/100 %
+ 65/100  [===== Uncertainty Quantification ======]  -   65/100 %
+ 66/100  [===== Uncertainty Quantification ======]  -   66/100 %
+ 67/100  [===== Uncertainty Quantification ======]  -   67/100 %
+ 68/100  [===== Uncertainty Quantification ======]  -   68/100 %
+ 69/100  [===== Uncertainty Quantification ======]  -   69/100 %
+ 70/100  [===== Uncertainty Quantification ======]  -   70/100 %
+ 71/100  [===== Uncertainty Quantification ======]  -   71/100 %
+ 72/100  [===== Uncertainty Quantification ======]  -   72/100 %
+ 73/100  [===== Uncertainty Quantification ======]  -   73/100 %
+ 74/100  [===== Uncertainty Quantification ======]  -   74/100 %
+ 75/100  [===== Uncertainty Quantification ======]  -   75/100 %
+ 76/100  [===== Uncertainty Quantification ======]  -   76/100 %
+ 77/100  [===== Uncertainty Quantification ======]  -   77/100 %
+ 78/100  [===== Uncertainty Quantification ======]  -   78/100 %
+ 79/100  [===== Uncertainty Quantification ======]  -   79/100 %
+ 80/100  [===== Uncertainty Quantification ======]  -   80/100 %
+ 81/100  [===== Uncertainty Quantification ======]  -   81/100 %
+ 82/100  [===== Uncertainty Quantification ======]  -   82/100 %
+ 83/100  [===== Uncertainty Quantification ======]  -   83/100 %
+ 84/100  [===== Uncertainty Quantification ======]  -   84/100 %
+ 85/100  [===== Uncertainty Quantification ======]  -   85/100 %
+ 86/100  [===== Uncertainty Quantification ======]  -   86/100 %
+ 87/100  [===== Uncertainty Quantification ======]  -   87/100 %
+ 88/100  [===== Uncertainty Quantification ======]  -   88/100 %
+ 89/100  [===== Uncertainty Quantification ======]  -   89/100 %
+ 90/100  [===== Uncertainty Quantification ======]  -   90/100 %
+ 91/100  [===== Uncertainty Quantification ======]  -   91/100 %
+ 92/100  [===== Uncertainty Quantification ======]  -   92/100 %
+ 93/100  [===== Uncertainty Quantification ======]  -   93/100 %
+ 94/100  [===== Uncertainty Quantification ======]  -   94/100 %
+ 95/100  [===== Uncertainty Quantification ======]  -   95/100 %
+ 96/100  [===== Uncertainty Quantification ======]  -   96/100 %
+ 97/100  [===== Uncertainty Quantification ======]  -   97/100 %
+ 98/100  [===== Uncertainty Quantification ======]  -   98/100 %
+ 99/100  [===== Uncertainty Quantification ======]  -   99/100 %
+100/100  [===== Uncertainty Quantification ======]  -  100/100 %
+[2024-04-18 23:03:17] Saving results... 
+[2024-04-18 23:03:17] [2024-04-18 23:03:17] Saving the result to: Saving the result to: results\kp_5h_results.csv results\kp_5h_results.csv 
+
+[2024-04-18 23:03:17] Saving figure to file: figures\kp_5h_epistemic.png 
+[2024-04-18 23:03:17] Saving figure to file: figures\kp_5h_aleatoric.png 
+Running testing for h = 6 hour ahead
+[2024-04-18 23:03:17] Loading from train file: data\solar-wind-data\6h\solar_wind_parameters_data_6_hourly_train.csv 
+[2024-04-18 23:03:17] Loading from test  file: data\solar-wind-data\6h\solar_wind_parameters_data_6_hourly_test.csv 
+[2024-04-18 23:03:17] all_data.columns: Index(['Timestamp', 'YEAR', 'DOY', 'HR', 'ScalarB', 'BX_GSE_GSM', 'BY_GSE',
+       'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature',
+       'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure',
+       'Electric_field', 'Kp_index', 'Kp_German'],
+      dtype='object') 
+[2024-04-18 23:03:17] data columns: Index(['Timestamp', 'YEAR', 'DOY', 'HR', 'ScalarB', 'BX_GSE_GSM', 'BY_GSE',
+       'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature',
+       'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure',
+       'Electric_field', 'Kp_index', 'Kp_German'],
+      dtype='object') 
+[2024-04-18 23:03:17] columns_names: ['ScalarB', 'BX_GSE_GSM', 'BY_GSE', 'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature', 'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure'] 
+[2024-04-18 23:03:18] size of test: 2128 2128 2128 
+[2024-04-18 23:03:18] y_test max , min: 63 0 
+[2024-04-18 23:03:18] Loading the model and its weights. 
+[2024-04-18 23:03:21] Loading weights from model dir: models\6h 
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 4s 4s/step
+
+Uncertainty Quantification
+  1/100  [===== Uncertainty Quantification ======]  -    1/100 %
+  2/100  [===== Uncertainty Quantification ======]  -    2/100 %
+  3/100  [===== Uncertainty Quantification ======]  -    3/100 %
+  4/100  [===== Uncertainty Quantification ======]  -    4/100 %
+  5/100  [===== Uncertainty Quantification ======]  -    5/100 %
+  6/100  [===== Uncertainty Quantification ======]  -    6/100 %
+  7/100  [===== Uncertainty Quantification ======]  -    7/100 %
+  8/100  [===== Uncertainty Quantification ======]  -    8/100 %
+  9/100  [===== Uncertainty Quantification ======]  -    9/100 %
+ 10/100  [===== Uncertainty Quantification ======]  -   10/100 %
+ 11/100  [===== Uncertainty Quantification ======]  -   11/100 %
+ 12/100  [===== Uncertainty Quantification ======]  -   12/100 %
+ 13/100  [===== Uncertainty Quantification ======]  -   13/100 %
+ 14/100  [===== Uncertainty Quantification ======]  -   14/100 %
+ 15/100  [===== Uncertainty Quantification ======]  -   15/100 %
+ 16/100  [===== Uncertainty Quantification ======]  -   16/100 %
+ 17/100  [===== Uncertainty Quantification ======]  -   17/100 %
+ 18/100  [===== Uncertainty Quantification ======]  -   18/100 %
+ 19/100  [===== Uncertainty Quantification ======]  -   19/100 %
+ 20/100  [===== Uncertainty Quantification ======]  -   20/100 %
+ 21/100  [===== Uncertainty Quantification ======]  -   21/100 %
+ 22/100  [===== Uncertainty Quantification ======]  -   22/100 %
+ 23/100  [===== Uncertainty Quantification ======]  -   23/100 %
+ 24/100  [===== Uncertainty Quantification ======]  -   24/100 %
+ 25/100  [===== Uncertainty Quantification ======]  -   25/100 %
+ 26/100  [===== Uncertainty Quantification ======]  -   26/100 %
+ 27/100  [===== Uncertainty Quantification ======]  -   27/100 %
+ 28/100  [===== Uncertainty Quantification ======]  -   28/100 %
+ 29/100  [===== Uncertainty Quantification ======]  -   28/100 %
+ 30/100  [===== Uncertainty Quantification ======]  -   30/100 %
+ 31/100  [===== Uncertainty Quantification ======]  -   31/100 %
+ 32/100  [===== Uncertainty Quantification ======]  -   32/100 %
+ 33/100  [===== Uncertainty Quantification ======]  -   33/100 %
+ 34/100  [===== Uncertainty Quantification ======]  -   34/100 %
+ 35/100  [===== Uncertainty Quantification ======]  -   35/100 %
+ 36/100  [===== Uncertainty Quantification ======]  -   36/100 %
+ 37/100  [===== Uncertainty Quantification ======]  -   37/100 %
+ 38/100  [===== Uncertainty Quantification ======]  -   38/100 %
+ 39/100  [===== Uncertainty Quantification ======]  -   39/100 %
+ 40/100  [===== Uncertainty Quantification ======]  -   40/100 %
+ 41/100  [===== Uncertainty Quantification ======]  -   41/100 %
+ 42/100  [===== Uncertainty Quantification ======]  -   42/100 %
+ 43/100  [===== Uncertainty Quantification ======]  -   43/100 %
+ 44/100  [===== Uncertainty Quantification ======]  -   44/100 %
+ 45/100  [===== Uncertainty Quantification ======]  -   45/100 %
+ 46/100  [===== Uncertainty Quantification ======]  -   46/100 %
+ 47/100  [===== Uncertainty Quantification ======]  -   47/100 %
+ 48/100  [===== Uncertainty Quantification ======]  -   48/100 %
+ 49/100  [===== Uncertainty Quantification ======]  -   49/100 %
+ 50/100  [===== Uncertainty Quantification ======]  -   50/100 %
+ 51/100  [===== Uncertainty Quantification ======]  -   51/100 %
+ 52/100  [===== Uncertainty Quantification ======]  -   52/100 %
+ 53/100  [===== Uncertainty Quantification ======]  -   53/100 %
+ 54/100  [===== Uncertainty Quantification ======]  -   54/100 %
+ 55/100  [===== Uncertainty Quantification ======]  -   55/100 %
+ 56/100  [===== Uncertainty Quantification ======]  -   56/100 %
+ 57/100  [===== Uncertainty Quantification ======]  -   56/100 %
+ 58/100  [===== Uncertainty Quantification ======]  -   57/100 %
+ 59/100  [===== Uncertainty Quantification ======]  -   59/100 %
+ 60/100  [===== Uncertainty Quantification ======]  -   60/100 %
+ 61/100  [===== Uncertainty Quantification ======]  -   61/100 %
+ 62/100  [===== Uncertainty Quantification ======]  -   62/100 %
+ 63/100  [===== Uncertainty Quantification ======]  -   63/100 %
+ 64/100  [===== Uncertainty Quantification ======]  -   64/100 %
+ 65/100  [===== Uncertainty Quantification ======]  -   65/100 %
+ 66/100  [===== Uncertainty Quantification ======]  -   66/100 %
+ 67/100  [===== Uncertainty Quantification ======]  -   67/100 %
+ 68/100  [===== Uncertainty Quantification ======]  -   68/100 %
+ 69/100  [===== Uncertainty Quantification ======]  -   69/100 %
+ 70/100  [===== Uncertainty Quantification ======]  -   70/100 %
+ 71/100  [===== Uncertainty Quantification ======]  -   71/100 %
+ 72/100  [===== Uncertainty Quantification ======]  -   72/100 %
+ 73/100  [===== Uncertainty Quantification ======]  -   73/100 %
+ 74/100  [===== Uncertainty Quantification ======]  -   74/100 %
+ 75/100  [===== Uncertainty Quantification ======]  -   75/100 %
+ 76/100  [===== Uncertainty Quantification ======]  -   76/100 %
+ 77/100  [===== Uncertainty Quantification ======]  -   77/100 %
+ 78/100  [===== Uncertainty Quantification ======]  -   78/100 %
+ 79/100  [===== Uncertainty Quantification ======]  -   79/100 %
+ 80/100  [===== Uncertainty Quantification ======]  -   80/100 %
+ 81/100  [===== Uncertainty Quantification ======]  -   81/100 %
+ 82/100  [===== Uncertainty Quantification ======]  -   82/100 %
+ 83/100  [===== Uncertainty Quantification ======]  -   83/100 %
+ 84/100  [===== Uncertainty Quantification ======]  -   84/100 %
+ 85/100  [===== Uncertainty Quantification ======]  -   85/100 %
+ 86/100  [===== Uncertainty Quantification ======]  -   86/100 %
+ 87/100  [===== Uncertainty Quantification ======]  -   87/100 %
+ 88/100  [===== Uncertainty Quantification ======]  -   88/100 %
+ 89/100  [===== Uncertainty Quantification ======]  -   89/100 %
+ 90/100  [===== Uncertainty Quantification ======]  -   90/100 %
+ 91/100  [===== Uncertainty Quantification ======]  -   91/100 %
+ 92/100  [===== Uncertainty Quantification ======]  -   92/100 %
+ 93/100  [===== Uncertainty Quantification ======]  -   93/100 %
+ 94/100  [===== Uncertainty Quantification ======]  -   94/100 %
+ 95/100  [===== Uncertainty Quantification ======]  -   95/100 %
+ 96/100  [===== Uncertainty Quantification ======]  -   96/100 %
+ 97/100  [===== Uncertainty Quantification ======]  -   97/100 %
+ 98/100  [===== Uncertainty Quantification ======]  -   98/100 %
+ 99/100  [===== Uncertainty Quantification ======]  -   99/100 %
+100/100  [===== Uncertainty Quantification ======]  -  100/100 %
+[2024-04-18 23:05:03] Saving results... 
+[2024-04-18 23:05:03] [2024-04-18 23:05:03] Saving the result to: Saving the result to: results\kp_6h_results.csv results\kp_6h_results.csv 
+
+[2024-04-18 23:05:03] Saving figure to file: figures\kp_6h_epistemic.png 
+[2024-04-18 23:05:03] Saving figure to file: figures\kp_6h_aleatoric.png 
+Running testing for h = 7 hour ahead
+[2024-04-18 23:05:03] Loading from train file: data\solar-wind-data\7h\solar_wind_parameters_data_7_hourly_train.csv 
+[2024-04-18 23:05:03] Loading from test  file: data\solar-wind-data\7h\solar_wind_parameters_data_7_hourly_test.csv 
+[2024-04-18 23:05:03] all_data.columns: Index(['Timestamp', 'YEAR', 'DOY', 'HR', 'ScalarB', 'BX_GSE_GSM', 'BY_GSE',
+       'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature',
+       'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure',
+       'Electric_field', 'Kp_index', 'Kp_German'],
+      dtype='object') 
+[2024-04-18 23:05:03] data columns: Index(['Timestamp', 'YEAR', 'DOY', 'HR', 'ScalarB', 'BX_GSE_GSM', 'BY_GSE',
+       'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature',
+       'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure',
+       'Electric_field', 'Kp_index', 'Kp_German'],
+      dtype='object') 
+[2024-04-18 23:05:03] columns_names: ['ScalarB', 'BX_GSE_GSM', 'BY_GSE', 'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature', 'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure'] 
+[2024-04-18 23:05:03] size of test: 2129 2129 2129 
+[2024-04-18 23:05:03] y_test max , min: 63 0 
+[2024-04-18 23:05:03] Loading the model and its weights. 
+[2024-04-18 23:05:07] Loading weights from model dir: models\7h 
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 5s 5s/step
+
+Uncertainty Quantification
+  1/100  [===== Uncertainty Quantification ======]  -    1/100 %
+  2/100  [===== Uncertainty Quantification ======]  -    2/100 %
+  3/100  [===== Uncertainty Quantification ======]  -    3/100 %
+  4/100  [===== Uncertainty Quantification ======]  -    4/100 %
+  5/100  [===== Uncertainty Quantification ======]  -    5/100 %
+  6/100  [===== Uncertainty Quantification ======]  -    6/100 %
+  7/100  [===== Uncertainty Quantification ======]  -    7/100 %
+  8/100  [===== Uncertainty Quantification ======]  -    8/100 %
+  9/100  [===== Uncertainty Quantification ======]  -    9/100 %
+ 10/100  [===== Uncertainty Quantification ======]  -   10/100 %
+ 11/100  [===== Uncertainty Quantification ======]  -   11/100 %
+ 12/100  [===== Uncertainty Quantification ======]  -   12/100 %
+ 13/100  [===== Uncertainty Quantification ======]  -   13/100 %
+ 14/100  [===== Uncertainty Quantification ======]  -   14/100 %
+ 15/100  [===== Uncertainty Quantification ======]  -   15/100 %
+ 16/100  [===== Uncertainty Quantification ======]  -   16/100 %
+ 17/100  [===== Uncertainty Quantification ======]  -   17/100 %
+ 18/100  [===== Uncertainty Quantification ======]  -   18/100 %
+ 19/100  [===== Uncertainty Quantification ======]  -   19/100 %
+ 20/100  [===== Uncertainty Quantification ======]  -   20/100 %
+ 21/100  [===== Uncertainty Quantification ======]  -   21/100 %
+ 22/100  [===== Uncertainty Quantification ======]  -   22/100 %
+ 23/100  [===== Uncertainty Quantification ======]  -   23/100 %
+ 24/100  [===== Uncertainty Quantification ======]  -   24/100 %
+ 25/100  [===== Uncertainty Quantification ======]  -   25/100 %
+ 26/100  [===== Uncertainty Quantification ======]  -   26/100 %
+ 27/100  [===== Uncertainty Quantification ======]  -   27/100 %
+ 28/100  [===== Uncertainty Quantification ======]  -   28/100 %
+ 29/100  [===== Uncertainty Quantification ======]  -   28/100 %
+ 30/100  [===== Uncertainty Quantification ======]  -   30/100 %
+ 31/100  [===== Uncertainty Quantification ======]  -   31/100 %
+ 32/100  [===== Uncertainty Quantification ======]  -   32/100 %
+ 33/100  [===== Uncertainty Quantification ======]  -   33/100 %
+ 34/100  [===== Uncertainty Quantification ======]  -   34/100 %
+ 35/100  [===== Uncertainty Quantification ======]  -   35/100 %
+ 36/100  [===== Uncertainty Quantification ======]  -   36/100 %
+ 37/100  [===== Uncertainty Quantification ======]  -   37/100 %
+ 38/100  [===== Uncertainty Quantification ======]  -   38/100 %
+ 39/100  [===== Uncertainty Quantification ======]  -   39/100 %
+ 40/100  [===== Uncertainty Quantification ======]  -   40/100 %
+ 41/100  [===== Uncertainty Quantification ======]  -   41/100 %
+ 42/100  [===== Uncertainty Quantification ======]  -   42/100 %
+ 43/100  [===== Uncertainty Quantification ======]  -   43/100 %
+ 44/100  [===== Uncertainty Quantification ======]  -   44/100 %
+ 45/100  [===== Uncertainty Quantification ======]  -   45/100 %
+ 46/100  [===== Uncertainty Quantification ======]  -   46/100 %
+ 47/100  [===== Uncertainty Quantification ======]  -   47/100 %
+ 48/100  [===== Uncertainty Quantification ======]  -   48/100 %
+ 49/100  [===== Uncertainty Quantification ======]  -   49/100 %
+ 50/100  [===== Uncertainty Quantification ======]  -   50/100 %
+ 51/100  [===== Uncertainty Quantification ======]  -   51/100 %
+ 52/100  [===== Uncertainty Quantification ======]  -   52/100 %
+ 53/100  [===== Uncertainty Quantification ======]  -   53/100 %
+ 54/100  [===== Uncertainty Quantification ======]  -   54/100 %
+ 55/100  [===== Uncertainty Quantification ======]  -   55/100 %
+ 56/100  [===== Uncertainty Quantification ======]  -   56/100 %
+ 57/100  [===== Uncertainty Quantification ======]  -   56/100 %
+ 58/100  [===== Uncertainty Quantification ======]  -   57/100 %
+ 59/100  [===== Uncertainty Quantification ======]  -   59/100 %
+ 60/100  [===== Uncertainty Quantification ======]  -   60/100 %
+ 61/100  [===== Uncertainty Quantification ======]  -   61/100 %
+ 62/100  [===== Uncertainty Quantification ======]  -   62/100 %
+ 63/100  [===== Uncertainty Quantification ======]  -   63/100 %
+ 64/100  [===== Uncertainty Quantification ======]  -   64/100 %
+ 65/100  [===== Uncertainty Quantification ======]  -   65/100 %
+ 66/100  [===== Uncertainty Quantification ======]  -   66/100 %
+ 67/100  [===== Uncertainty Quantification ======]  -   67/100 %
+ 68/100  [===== Uncertainty Quantification ======]  -   68/100 %
+ 69/100  [===== Uncertainty Quantification ======]  -   69/100 %
+ 70/100  [===== Uncertainty Quantification ======]  -   70/100 %
+ 71/100  [===== Uncertainty Quantification ======]  -   71/100 %
+ 72/100  [===== Uncertainty Quantification ======]  -   72/100 %
+ 73/100  [===== Uncertainty Quantification ======]  -   73/100 %
+ 74/100  [===== Uncertainty Quantification ======]  -   74/100 %
+ 75/100  [===== Uncertainty Quantification ======]  -   75/100 %
+ 76/100  [===== Uncertainty Quantification ======]  -   76/100 %
+ 77/100  [===== Uncertainty Quantification ======]  -   77/100 %
+ 78/100  [===== Uncertainty Quantification ======]  -   78/100 %
+ 79/100  [===== Uncertainty Quantification ======]  -   79/100 %
+ 80/100  [===== Uncertainty Quantification ======]  -   80/100 %
+ 81/100  [===== Uncertainty Quantification ======]  -   81/100 %
+ 82/100  [===== Uncertainty Quantification ======]  -   82/100 %
+ 83/100  [===== Uncertainty Quantification ======]  -   83/100 %
+ 84/100  [===== Uncertainty Quantification ======]  -   84/100 %
+ 85/100  [===== Uncertainty Quantification ======]  -   85/100 %
+ 86/100  [===== Uncertainty Quantification ======]  -   86/100 %
+ 87/100  [===== Uncertainty Quantification ======]  -   87/100 %
+ 88/100  [===== Uncertainty Quantification ======]  -   88/100 %
+ 89/100  [===== Uncertainty Quantification ======]  -   89/100 %
+ 90/100  [===== Uncertainty Quantification ======]  -   90/100 %
+ 91/100  [===== Uncertainty Quantification ======]  -   91/100 %
+ 92/100  [===== Uncertainty Quantification ======]  -   92/100 %
+ 93/100  [===== Uncertainty Quantification ======]  -   93/100 %
+ 94/100  [===== Uncertainty Quantification ======]  -   94/100 %
+ 95/100  [===== Uncertainty Quantification ======]  -   95/100 %
+ 96/100  [===== Uncertainty Quantification ======]  -   96/100 %
+ 97/100  [===== Uncertainty Quantification ======]  -   97/100 %
+ 98/100  [===== Uncertainty Quantification ======]  -   98/100 %
+ 99/100  [===== Uncertainty Quantification ======]  -   99/100 %
+100/100  [===== Uncertainty Quantification ======]  -  100/100 %
+[2024-04-18 23:06:47] Saving results... 
+[2024-04-18 23:06:47] [2024-04-18 23:06:47] Saving the result to: Saving the result to: results\kp_7h_results.csv results\kp_7h_results.csv 
+
+[2024-04-18 23:06:47] Saving figure to file: figures\kp_7h_epistemic.png 
+[2024-04-18 23:06:47] Saving figure to file: figures\kp_7h_aleatoric.png 
+Running testing for h = 8 hour ahead
+[2024-04-18 23:06:47] Loading from train file: data\solar-wind-data\8h\solar_wind_parameters_data_8_hourly_train.csv 
+[2024-04-18 23:06:47] Loading from test  file: data\solar-wind-data\8h\solar_wind_parameters_data_8_hourly_test.csv 
+[2024-04-18 23:06:47] all_data.columns: Index(['Timestamp', 'YEAR', 'DOY', 'HR', 'ScalarB', 'BX_GSE_GSM', 'BY_GSE',
+       'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature',
+       'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure',
+       'Electric_field', 'Kp_index', 'Kp_German'],
+      dtype='object') 
+[2024-04-18 23:06:47] data columns: Index(['Timestamp', 'YEAR', 'DOY', 'HR', 'ScalarB', 'BX_GSE_GSM', 'BY_GSE',
+       'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature',
+       'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure',
+       'Electric_field', 'Kp_index', 'Kp_German'],
+      dtype='object') 
+[2024-04-18 23:06:47] columns_names: ['ScalarB', 'BX_GSE_GSM', 'BY_GSE', 'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature', 'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure'] 
+[2024-04-18 23:06:48] size of test: 2130 2130 2130 
+[2024-04-18 23:06:48] y_test max , min: 63 0 
+[2024-04-18 23:06:48] Loading the model and its weights. 
+[2024-04-18 23:06:51] Loading weights from model dir: models\8h 
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 5s 5s/step
+
+Uncertainty Quantification
+  1/100  [===== Uncertainty Quantification ======]  -    1/100 %
+  2/100  [===== Uncertainty Quantification ======]  -    2/100 %
+  3/100  [===== Uncertainty Quantification ======]  -    3/100 %
+  4/100  [===== Uncertainty Quantification ======]  -    4/100 %
+  5/100  [===== Uncertainty Quantification ======]  -    5/100 %
+  6/100  [===== Uncertainty Quantification ======]  -    6/100 %
+  7/100  [===== Uncertainty Quantification ======]  -    7/100 %
+  8/100  [===== Uncertainty Quantification ======]  -    8/100 %
+  9/100  [===== Uncertainty Quantification ======]  -    9/100 %
+ 10/100  [===== Uncertainty Quantification ======]  -   10/100 %
+ 11/100  [===== Uncertainty Quantification ======]  -   11/100 %
+ 12/100  [===== Uncertainty Quantification ======]  -   12/100 %
+ 13/100  [===== Uncertainty Quantification ======]  -   13/100 %
+ 14/100  [===== Uncertainty Quantification ======]  -   14/100 %
+ 15/100  [===== Uncertainty Quantification ======]  -   15/100 %
+ 16/100  [===== Uncertainty Quantification ======]  -   16/100 %
+ 17/100  [===== Uncertainty Quantification ======]  -   17/100 %
+ 18/100  [===== Uncertainty Quantification ======]  -   18/100 %
+ 19/100  [===== Uncertainty Quantification ======]  -   19/100 %
+ 20/100  [===== Uncertainty Quantification ======]  -   20/100 %
+ 21/100  [===== Uncertainty Quantification ======]  -   21/100 %
+ 22/100  [===== Uncertainty Quantification ======]  -   22/100 %
+ 23/100  [===== Uncertainty Quantification ======]  -   23/100 %
+ 24/100  [===== Uncertainty Quantification ======]  -   24/100 %
+ 25/100  [===== Uncertainty Quantification ======]  -   25/100 %
+ 26/100  [===== Uncertainty Quantification ======]  -   26/100 %
+ 27/100  [===== Uncertainty Quantification ======]  -   27/100 %
+ 28/100  [===== Uncertainty Quantification ======]  -   28/100 %
+ 29/100  [===== Uncertainty Quantification ======]  -   28/100 %
+ 30/100  [===== Uncertainty Quantification ======]  -   30/100 %
+ 31/100  [===== Uncertainty Quantification ======]  -   31/100 %
+ 32/100  [===== Uncertainty Quantification ======]  -   32/100 %
+ 33/100  [===== Uncertainty Quantification ======]  -   33/100 %
+ 34/100  [===== Uncertainty Quantification ======]  -   34/100 %
+ 35/100  [===== Uncertainty Quantification ======]  -   35/100 %
+ 36/100  [===== Uncertainty Quantification ======]  -   36/100 %
+ 37/100  [===== Uncertainty Quantification ======]  -   37/100 %
+ 38/100  [===== Uncertainty Quantification ======]  -   38/100 %
+ 39/100  [===== Uncertainty Quantification ======]  -   39/100 %
+ 40/100  [===== Uncertainty Quantification ======]  -   40/100 %
+ 41/100  [===== Uncertainty Quantification ======]  -   41/100 %
+ 42/100  [===== Uncertainty Quantification ======]  -   42/100 %
+ 43/100  [===== Uncertainty Quantification ======]  -   43/100 %
+ 44/100  [===== Uncertainty Quantification ======]  -   44/100 %
+ 45/100  [===== Uncertainty Quantification ======]  -   45/100 %
+ 46/100  [===== Uncertainty Quantification ======]  -   46/100 %
+ 47/100  [===== Uncertainty Quantification ======]  -   47/100 %
+ 48/100  [===== Uncertainty Quantification ======]  -   48/100 %
+ 49/100  [===== Uncertainty Quantification ======]  -   49/100 %
+ 50/100  [===== Uncertainty Quantification ======]  -   50/100 %
+ 51/100  [===== Uncertainty Quantification ======]  -   51/100 %
+ 52/100  [===== Uncertainty Quantification ======]  -   52/100 %
+ 53/100  [===== Uncertainty Quantification ======]  -   53/100 %
+ 54/100  [===== Uncertainty Quantification ======]  -   54/100 %
+ 55/100  [===== Uncertainty Quantification ======]  -   55/100 %
+ 56/100  [===== Uncertainty Quantification ======]  -   56/100 %
+ 57/100  [===== Uncertainty Quantification ======]  -   56/100 %
+ 58/100  [===== Uncertainty Quantification ======]  -   57/100 %
+ 59/100  [===== Uncertainty Quantification ======]  -   59/100 %
+ 60/100  [===== Uncertainty Quantification ======]  -   60/100 %
+ 61/100  [===== Uncertainty Quantification ======]  -   61/100 %
+ 62/100  [===== Uncertainty Quantification ======]  -   62/100 %
+ 63/100  [===== Uncertainty Quantification ======]  -   63/100 %
+ 64/100  [===== Uncertainty Quantification ======]  -   64/100 %
+ 65/100  [===== Uncertainty Quantification ======]  -   65/100 %
+ 66/100  [===== Uncertainty Quantification ======]  -   66/100 %
+ 67/100  [===== Uncertainty Quantification ======]  -   67/100 %
+ 68/100  [===== Uncertainty Quantification ======]  -   68/100 %
+ 69/100  [===== Uncertainty Quantification ======]  -   69/100 %
+ 70/100  [===== Uncertainty Quantification ======]  -   70/100 %
+ 71/100  [===== Uncertainty Quantification ======]  -   71/100 %
+ 72/100  [===== Uncertainty Quantification ======]  -   72/100 %
+ 73/100  [===== Uncertainty Quantification ======]  -   73/100 %
+ 74/100  [===== Uncertainty Quantification ======]  -   74/100 %
+ 75/100  [===== Uncertainty Quantification ======]  -   75/100 %
+ 76/100  [===== Uncertainty Quantification ======]  -   76/100 %
+ 77/100  [===== Uncertainty Quantification ======]  -   77/100 %
+ 78/100  [===== Uncertainty Quantification ======]  -   78/100 %
+ 79/100  [===== Uncertainty Quantification ======]  -   79/100 %
+ 80/100  [===== Uncertainty Quantification ======]  -   80/100 %
+ 81/100  [===== Uncertainty Quantification ======]  -   81/100 %
+ 82/100  [===== Uncertainty Quantification ======]  -   82/100 %
+ 83/100  [===== Uncertainty Quantification ======]  -   83/100 %
+ 84/100  [===== Uncertainty Quantification ======]  -   84/100 %
+ 85/100  [===== Uncertainty Quantification ======]  -   85/100 %
+ 86/100  [===== Uncertainty Quantification ======]  -   86/100 %
+ 87/100  [===== Uncertainty Quantification ======]  -   87/100 %
+ 88/100  [===== Uncertainty Quantification ======]  -   88/100 %
+ 89/100  [===== Uncertainty Quantification ======]  -   89/100 %
+ 90/100  [===== Uncertainty Quantification ======]  -   90/100 %
+ 91/100  [===== Uncertainty Quantification ======]  -   91/100 %
+ 92/100  [===== Uncertainty Quantification ======]  -   92/100 %
+ 93/100  [===== Uncertainty Quantification ======]  -   93/100 %
+ 94/100  [===== Uncertainty Quantification ======]  -   94/100 %
+ 95/100  [===== Uncertainty Quantification ======]  -   95/100 %
+ 96/100  [===== Uncertainty Quantification ======]  -   96/100 %
+ 97/100  [===== Uncertainty Quantification ======]  -   97/100 %
+ 98/100  [===== Uncertainty Quantification ======]  -   98/100 %
+ 99/100  [===== Uncertainty Quantification ======]  -   99/100 %
+100/100  [===== Uncertainty Quantification ======]  -  100/100 %
+[2024-04-18 23:08:33] Saving results... 
+[2024-04-18 23:08:33] [2024-04-18 23:08:33] Saving the result to: Saving the result to: results\kp_8h_results.csv results\kp_8h_results.csv 
+
+[2024-04-18 23:08:33] Saving figure to file: figures\kp_8h_epistemic.png 
+[2024-04-18 23:08:34] Saving figure to file: figures\kp_8h_aleatoric.png 
+Running testing for h = 9 hour ahead
+[2024-04-18 23:08:34] Loading from train file: data\solar-wind-data\9h\solar_wind_parameters_data_9_hourly_train.csv 
+[2024-04-18 23:08:34] Loading from test  file: data\solar-wind-data\9h\solar_wind_parameters_data_9_hourly_test.csv 
+[2024-04-18 23:08:34] all_data.columns: Index(['Timestamp', 'YEAR', 'DOY', 'HR', 'ScalarB', 'BX_GSE_GSM', 'BY_GSE',
+       'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature',
+       'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure',
+       'Electric_field', 'Kp_index', 'Kp_German'],
+      dtype='object') 
+[2024-04-18 23:08:34] data columns: Index(['Timestamp', 'YEAR', 'DOY', 'HR', 'ScalarB', 'BX_GSE_GSM', 'BY_GSE',
+       'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature',
+       'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure',
+       'Electric_field', 'Kp_index', 'Kp_German'],
+      dtype='object') 
+[2024-04-18 23:08:34] columns_names: ['ScalarB', 'BX_GSE_GSM', 'BY_GSE', 'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature', 'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure'] 
+[2024-04-18 23:08:34] size of test: 2131 2131 2131 
+[2024-04-18 23:08:34] y_test max , min: 63 0 
+[2024-04-18 23:08:34] Loading the model and its weights. 
+[2024-04-18 23:08:38] Loading weights from model dir: models\9h 
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 4s 4s/step
+
+Uncertainty Quantification
+  1/100  [===== Uncertainty Quantification ======]  -    1/100 %
+  2/100  [===== Uncertainty Quantification ======]  -    2/100 %
+  3/100  [===== Uncertainty Quantification ======]  -    3/100 %
+  4/100  [===== Uncertainty Quantification ======]  -    4/100 %
+  5/100  [===== Uncertainty Quantification ======]  -    5/100 %
+  6/100  [===== Uncertainty Quantification ======]  -    6/100 %
+  7/100  [===== Uncertainty Quantification ======]  -    7/100 %
+  8/100  [===== Uncertainty Quantification ======]  -    8/100 %
+  9/100  [===== Uncertainty Quantification ======]  -    9/100 %
+ 10/100  [===== Uncertainty Quantification ======]  -   10/100 %
+ 11/100  [===== Uncertainty Quantification ======]  -   11/100 %
+ 12/100  [===== Uncertainty Quantification ======]  -   12/100 %
+ 13/100  [===== Uncertainty Quantification ======]  -   13/100 %
+ 14/100  [===== Uncertainty Quantification ======]  -   14/100 %
+ 15/100  [===== Uncertainty Quantification ======]  -   15/100 %
+ 16/100  [===== Uncertainty Quantification ======]  -   16/100 %
+ 17/100  [===== Uncertainty Quantification ======]  -   17/100 %
+ 18/100  [===== Uncertainty Quantification ======]  -   18/100 %
+ 19/100  [===== Uncertainty Quantification ======]  -   19/100 %
+ 20/100  [===== Uncertainty Quantification ======]  -   20/100 %
+ 21/100  [===== Uncertainty Quantification ======]  -   21/100 %
+ 22/100  [===== Uncertainty Quantification ======]  -   22/100 %
+ 23/100  [===== Uncertainty Quantification ======]  -   23/100 %
+ 24/100  [===== Uncertainty Quantification ======]  -   24/100 %
+ 25/100  [===== Uncertainty Quantification ======]  -   25/100 %
+ 26/100  [===== Uncertainty Quantification ======]  -   26/100 %
+ 27/100  [===== Uncertainty Quantification ======]  -   27/100 %
+ 28/100  [===== Uncertainty Quantification ======]  -   28/100 %
+ 29/100  [===== Uncertainty Quantification ======]  -   28/100 %
+ 30/100  [===== Uncertainty Quantification ======]  -   30/100 %
+ 31/100  [===== Uncertainty Quantification ======]  -   31/100 %
+ 32/100  [===== Uncertainty Quantification ======]  -   32/100 %
+ 33/100  [===== Uncertainty Quantification ======]  -   33/100 %
+ 34/100  [===== Uncertainty Quantification ======]  -   34/100 %
+ 35/100  [===== Uncertainty Quantification ======]  -   35/100 %
+ 36/100  [===== Uncertainty Quantification ======]  -   36/100 %
+ 37/100  [===== Uncertainty Quantification ======]  -   37/100 %
+ 38/100  [===== Uncertainty Quantification ======]  -   38/100 %
+ 39/100  [===== Uncertainty Quantification ======]  -   39/100 %
+ 40/100  [===== Uncertainty Quantification ======]  -   40/100 %
+ 41/100  [===== Uncertainty Quantification ======]  -   41/100 %
+ 42/100  [===== Uncertainty Quantification ======]  -   42/100 %
+ 43/100  [===== Uncertainty Quantification ======]  -   43/100 %
+ 44/100  [===== Uncertainty Quantification ======]  -   44/100 %
+ 45/100  [===== Uncertainty Quantification ======]  -   45/100 %
+ 46/100  [===== Uncertainty Quantification ======]  -   46/100 %
+ 47/100  [===== Uncertainty Quantification ======]  -   47/100 %
+ 48/100  [===== Uncertainty Quantification ======]  -   48/100 %
+ 49/100  [===== Uncertainty Quantification ======]  -   49/100 %
+ 50/100  [===== Uncertainty Quantification ======]  -   50/100 %
+ 51/100  [===== Uncertainty Quantification ======]  -   51/100 %
+ 52/100  [===== Uncertainty Quantification ======]  -   52/100 %
+ 53/100  [===== Uncertainty Quantification ======]  -   53/100 %
+ 54/100  [===== Uncertainty Quantification ======]  -   54/100 %
+ 55/100  [===== Uncertainty Quantification ======]  -   55/100 %
+ 56/100  [===== Uncertainty Quantification ======]  -   56/100 %
+ 57/100  [===== Uncertainty Quantification ======]  -   56/100 %
+ 58/100  [===== Uncertainty Quantification ======]  -   57/100 %
+ 59/100  [===== Uncertainty Quantification ======]  -   59/100 %
+ 60/100  [===== Uncertainty Quantification ======]  -   60/100 %
+ 61/100  [===== Uncertainty Quantification ======]  -   61/100 %
+ 62/100  [===== Uncertainty Quantification ======]  -   62/100 %
+ 63/100  [===== Uncertainty Quantification ======]  -   63/100 %
+ 64/100  [===== Uncertainty Quantification ======]  -   64/100 %
+ 65/100  [===== Uncertainty Quantification ======]  -   65/100 %
+ 66/100  [===== Uncertainty Quantification ======]  -   66/100 %
+ 67/100  [===== Uncertainty Quantification ======]  -   67/100 %
+ 68/100  [===== Uncertainty Quantification ======]  -   68/100 %
+ 69/100  [===== Uncertainty Quantification ======]  -   69/100 %
+ 70/100  [===== Uncertainty Quantification ======]  -   70/100 %
+ 71/100  [===== Uncertainty Quantification ======]  -   71/100 %
+ 72/100  [===== Uncertainty Quantification ======]  -   72/100 %
+ 73/100  [===== Uncertainty Quantification ======]  -   73/100 %
+ 74/100  [===== Uncertainty Quantification ======]  -   74/100 %
+ 75/100  [===== Uncertainty Quantification ======]  -   75/100 %
+ 76/100  [===== Uncertainty Quantification ======]  -   76/100 %
+ 77/100  [===== Uncertainty Quantification ======]  -   77/100 %
+ 78/100  [===== Uncertainty Quantification ======]  -   78/100 %
+ 79/100  [===== Uncertainty Quantification ======]  -   79/100 %
+ 80/100  [===== Uncertainty Quantification ======]  -   80/100 %
+ 81/100  [===== Uncertainty Quantification ======]  -   81/100 %
+ 82/100  [===== Uncertainty Quantification ======]  -   82/100 %
+ 83/100  [===== Uncertainty Quantification ======]  -   83/100 %
+ 84/100  [===== Uncertainty Quantification ======]  -   84/100 %
+ 85/100  [===== Uncertainty Quantification ======]  -   85/100 %
+ 86/100  [===== Uncertainty Quantification ======]  -   86/100 %
+ 87/100  [===== Uncertainty Quantification ======]  -   87/100 %
+ 88/100  [===== Uncertainty Quantification ======]  -   88/100 %
+ 89/100  [===== Uncertainty Quantification ======]  -   89/100 %
+ 90/100  [===== Uncertainty Quantification ======]  -   90/100 %
+ 91/100  [===== Uncertainty Quantification ======]  -   91/100 %
+ 92/100  [===== Uncertainty Quantification ======]  -   92/100 %
+ 93/100  [===== Uncertainty Quantification ======]  -   93/100 %
+ 94/100  [===== Uncertainty Quantification ======]  -   94/100 %
+ 95/100  [===== Uncertainty Quantification ======]  -   95/100 %
+ 96/100  [===== Uncertainty Quantification ======]  -   96/100 %
+ 97/100  [===== Uncertainty Quantification ======]  -   97/100 %
+ 98/100  [===== Uncertainty Quantification ======]  -   98/100 %
+ 99/100  [===== Uncertainty Quantification ======]  -   99/100 %
+100/100  [===== Uncertainty Quantification ======]  -  100/100 %
+[2024-04-18 23:09:58] Saving results... 
+[2024-04-18 23:09:58] [2024-04-18 23:09:58] Saving the result to: Saving the result to: results\kp_9h_results.csv results\kp_9h_results.csv 
+
+[2024-04-18 23:09:58] Saving figure to file: figures\kp_9h_epistemic.png 
+[2024-04-18 23:09:59] Saving figure to file: figures\kp_9h_aleatoric.png 
+show_figures: True

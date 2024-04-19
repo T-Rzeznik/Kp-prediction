@@ -96,7 +96,7 @@ class KpNetModel:
                     cnn_only=False):
                 input = keras.Input(shape=input_shape)
                 self.input = input 
-                model = layers.Conv1D(filters=32, kernel_size=2, activation="relu", #kernal_size from 1 to 2
+                model = layers.Conv1D(filters=32, kernel_size=1, activation="relu",
                                         name=self.model_name+"_conv",
                                         kernel_regularizer=regularizers.l1_l2(l1=1e-5, l2=1e-4),
                                         bias_regularizer=regularizers.l2(1e-4),
