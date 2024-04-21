@@ -92,11 +92,11 @@ class KpNetModel:
                     kl_weight=0.0001,
                     dropout=0.4,
                     bilstm=True,
-                    b=4, # added 2 more bilstm layers
+                    b=2, 
                     cnn_only=False):
                 input = keras.Input(shape=input_shape)
                 self.input = input 
-                model = layers.Conv1D(filters=32, kernel_size=1, activation="relu",
+                model = layers.Conv1D(filters=37, kernel_size=1, activation="relu", # 32 filters to 37
                                         name=self.model_name+"_conv",
                                         kernel_regularizer=regularizers.l1_l2(l1=1e-5, l2=1e-4),
                                         bias_regularizer=regularizers.l2(1e-4),
@@ -104,7 +104,7 @@ class KpNetModel:
                                       )(input)
                 if not cnn_only:
                     if not bilstm:
-                        model =(tf.keras.layers.LSTM(250,
+                        model =(tf.keras.layers.LSTM(300, # 250 to 300
                                                     return_sequences=True,
                                                     name=self.model_name+'_lstm',
                                                     kernel_regularizer=regularizers.l1_l2(l1=1e-5, l2=1e-4),
@@ -112,7 +112,7 @@ class KpNetModel:
                                                     activity_regularizer=regularizers.l2(1e-5)                                              
                                                      ))(model)
                     else:                            
-                        model =tf.keras.layers.Bidirectional(tf.keras.layers.LSTM(250,
+                        model =tf.keras.layers.Bidirectional(tf.keras.layers.LSTM(300, #250 to 300
                                                     return_sequences=True,
                                                     name=self.model_name+'_lstm',
                                                     kernel_regularizer=regularizers.l1_l2(l1=1e-5, l2=1e-4),
@@ -121,12 +121,12 @@ class KpNetModel:
                                                      ))(model)
                     model = layers.Dropout(dropout)(model)
                     if b == 0:
-                        model = (layers.MultiHeadAttention(key_dim=4, num_heads=4, dropout=0,name=self.model_name +'_mh'))(model,model)
+                        model = (layers.MultiHeadAttention(key_dim=6, num_heads=6, dropout=0,name=self.model_name +'_mh'))(model,model) # changed from head_size=4,num_heads=4
                     else:
                         for i in range(b):
-                            model = self.transformer_encoder(model,head_size=4,num_heads=4,ff_dim=4,dropout=0, bilstm=bilstm, name_postffix='_enc' + str(i))
+                            model = self.transformer_encoder(model,head_size=6,num_heads=6,ff_dim=6,dropout=0, bilstm=bilstm, name_postffix='_enc' + str(i)) # changed from head_size=4,num_heads=4,ff_dim=4
                 model = layers.Dropout(dropout)(model)
-                model = layers.Dense(100,
+                model = layers.Dense(120, #100 to 120
                                         kernel_regularizer=regularizers.l1_l2(l1=1e-5, l2=1e-4),
                                         bias_regularizer=regularizers.l2(1e-4),
                                         activity_regularizer=regularizers.l2(1e-5)                                      
@@ -161,7 +161,7 @@ class KpNetModel:
               tfd.Normal(loc=t, scale=1),
               reinterpreted_batch_ndims=1)),
       ])
-    def transformer_encoder(self, inputs,head_size=2,num_heads=2,ff_dim=4,dropout=0, bilstm=True, name_postffix='_enc1'):
+    def transformer_encoder(self, inputs,head_size=4,num_heads=4,ff_dim=6,dropout=0, bilstm=True, name_postffix='_enc1'): # chnaged head_size=2,num_heads=2,ff_dim=4 
         x = layers.Dropout(dropout)(inputs)
         x = layers.MultiHeadAttention(key_dim=head_size, num_heads=num_heads)(x, x)
         # x = layers.LayerNormalization(epsilon=1e-6)(res)
@@ -169,11 +169,11 @@ class KpNetModel:
         x = layers.Conv1D(filters=ff_dim, kernel_size=inputs.shape[-2], activation="relu")(x)
         x = layers.Conv1D(filters=inputs.shape[-1], kernel_size=1)(x)
         if not bilstm:
-            x = (tf.keras.layers.LSTM(250,
+            x = (tf.keras.layers.LSTM(300, #250 to 300
                                       return_sequences=True,
                                       name=self.model_name+name_postffix + '_lstm'))(x)               
         else:
-            x = tf.keras.layers.Bidirectional(tf.keras.layers.LSTM(250,
+            x = tf.keras.layers.Bidirectional(tf.keras.layers.LSTM(300, # 250 to 300
                                          return_sequences=True,
                                          name=self.model_name+name_postffix + '_lstm'))(x)        
         self.model = x 
@@ -183,7 +183,7 @@ class KpNetModel:
     def summary(self):
         self.model.summary()
     
-    def compile(self,loss='mse',metrics=['mse'], adam_lr=0.00014): # changed from 0.0001 to 0.00014
+    def compile(self,loss='mse',metrics=['mse'], adam_lr=0.0001): 
         self.model.compile(optimizer=tf.keras.optimizers.legacy.Adam(learning_rate=adam_lr), 
                            loss=loss,
                            metrics=metrics)
@@ -192,7 +192,7 @@ class KpNetModel:
             y_train,
             X_valid=None, 
             y_valid=None,
-            epochs=50, #changed from 100 to 50
+            epochs=100, 
             verbose=2,
             batch_size=512):
         validation_data = None 

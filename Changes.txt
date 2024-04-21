@@ -2,7 +2,7 @@
 For my "improvements" I tweaked hyper parameters as followed:
 
 
-Model 1:
+Model 2:
 {
 1. changed learning rate from 0.0001 to 0.00014 in the adam algorithm
 
@@ -20,5 +20,39 @@ In response I wanted to tune up some hyperparameters to combat this which is why
 
 Conclusion: The changes I made to the model created predictions I did not expect. They seemed to break the model causing every hours piction to be a constant value.
 this happed twice with the default model, which makes me ponder why this is happening.
-
+Dispite lowering the epoch count, the training still took the same amount of time if not longer due to the more complex layers. About 60 sec per epoch.
 }
+
+Model 3:
+reset to default, ran on my laptop and desktop
+{
+1. Changed number of nodes in LSTM layer: 250 to 300
+
+2. Changes convolutional filters from 32 to 37
+
+3. Changed dense layer: 100 to 120 nodes
+
+4. Changed number of heads, size and dimension of transformer encoder in if statement. 4 to 6
+    layers.MultiHeadAttention
+    model = self.transformer_encoder
+    
+5. Changed head_size=4,num_heads=4,ff_dim=6 in transformer_encoder defintion.
+
+Estimate:
+Since In this model I tuned all the parameters up, I esitmate that this will cause overfiitng.
+Hopefully the program will predict correctly and not constant, like the previous model.
+
+I also assume this will take very long to train with the greater amount of nodes in each layer.
+
+
+Conclusion:
+    This model seemed to predict more acurately and didn't predict constant as the last model did.
+    Changing the number of nodes in each layer seems to be a better solution than changing the layer itself.
+}
+
+
+Final Conclusion:
+
+
+
+
